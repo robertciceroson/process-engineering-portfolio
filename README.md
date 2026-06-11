@@ -17,17 +17,15 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 | # | Diagram | Domain | Engagement | Type |
 |---|---------|--------|------------|------|
-| 1 | [CIMS Helpdesk – Creating & Responding to SL Tickets](#1-cims-helpdesk--creating--responding-to-sl-tickets) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 3 | [Smoke Testing Process for Monthly Outages (Style A)](#3-smoke-testing-process-for-monthly-outages-style-a) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 4 | [Smoke Testing for Monthly Outages Process (Style B)](#4-smoke-testing-for-monthly-outages-process-style-b) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 5 | [Chief of Staff Tasker & Package Correspondence](#5-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
 | 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 7 | [DASD IBR Action Memo Process](#7-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 8 | [GIES Task Management Process](#8-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
-| 9 | [Meeting & Scheduling Process](#9-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
-| 10 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Retrieval](#10-pentagon-workspace-solutions-branch--kit-of-parts-inventoryretrieval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 11 | [Public Affairs Reporter Request Process](#11-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
+| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
+| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 
 ---
 
@@ -37,16 +35,16 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 ---
 
-### 1. CIMS Helpdesk – Creating & Responding to SL Tickets
+### 1. Smoke Testing – Monthly Outages Process
 **Engagement:** Zantech IT Services · DoD Army CID Program
-**Domain:** Federal IT / Helpdesk Operations
+**Domain:** Federal IT / QA Testing
 **Type:** Current-State Flowchart
 
-[View Diagram](CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20S....pdf)
+[View Diagram](Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
 
-Documents the end-to-end process for creating and responding to Service Level (SL) tickets within the CIMS (Criminal Investigation Management System) Helpdesk — mapping ticket submission, triage, routing, system navigation steps, escalation paths, and resolution/closure across ALERTS, ACIS, and DRS systems supporting 10,000–15,000 global DoD users.
+Documents the monthly outage smoke testing process across three concurrent Army CID systems (ALERTS, DRS, ACIS) — mapping test initiation across Production, Train, and Test environments, system availability validation, broken functionality notification, and Test Lead sign-off workflows. Applies to CIMS TEST and TRAIN environments on the third Monday of each month and CIMS Production on the third Wednesday.
 
-**Key process elements:** Ticket creation → triage → system routing → escalation paths → response → resolution → closure
+**Key process elements:** Monitor Monthly Outage Status → environment routing (Production/Train/Test) → smoke test execution → broken functionality notification → Test Lead (Bob Son) sign-off → Gov't POC coordination
 
 ---
 
@@ -55,37 +53,11 @@ Documents the end-to-end process for creating and responding to Service Level (S
 **Domain:** Federal IT / QA Testing
 **Type:** Current-State Flowchart
 
-[View Diagram](Smoke%20Testing%20for%20New%20Functionality_New%20Rele....pdf)
+[View Diagram](Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
 
-Documents the smoke testing process for new functionality releases across three concurrent Army CID systems (ALERTS, DRS, ACIS) — mapping test initiation, system monitoring, new functionality validation, broken functionality notification, and Test Lead sign-off workflows. References CIMS Test and Train environment configurations (PENTAGON, USDB, Bucca Training Site).
+Documents the smoke testing process for new functionality releases across ALERTS, DRS, and ACIS — mapping new functionality validation, smoke test breakdown review, broken functionality notification, and Test Lead sign-off. References CIMS Test and Train environment configurations (PENTAGON, USDB, Bucca Training Site).
 
 **Key process elements:** Monitor Monthly Outage Status → new functionality validation → smoke test breakdown review → notify Test Lead → system completion sign-off → Test Lead posting
-
----
-
-### 3. Smoke Testing Process for Monthly Outages (Style A)
-**Engagement:** Zantech IT Services · DoD Army CID Program
-**Domain:** Federal IT / QA Testing
-**Type:** Current-State Flowchart
-
-[View Diagram](Smoke%20Testing%20Process%20for%20Monthly%20Outages.pdf)
-
-Documents the monthly outage smoke testing process for ALERTS, DRS, and ACIS — capturing the testing workflow executed after each monthly system outage window to validate system availability and functionality before returning systems to operational status.
-
-**Key process elements:** Outage monitoring → system availability check → smoke test execution → issue identification → Test Lead notification → sign-off
-
----
-
-### 4. Smoke Testing for Monthly Outages Process (Style B)
-**Engagement:** Zantech IT Services · DoD Army CID Program
-**Domain:** Federal IT / QA Testing
-**Type:** Current-State Flowchart
-
-[View Diagram](Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
-
-Alternative visual style of the monthly outage smoke testing process — demonstrating process documentation versatility across different diagram formats while capturing the same ALERTS, DRS, and ACIS testing workflow.
-
-**Key process elements:** Outage monitoring → system availability check → smoke test execution → issue identification → Test Lead notification → sign-off
 
 ---
 
@@ -93,11 +65,11 @@ Alternative visual style of the monthly outage smoke testing process — demonst
 
 ---
 
-### 5. Chief of Staff Tasker & Package Correspondence
+### 3. Chief of Staff Tasker & Package Correspondence
 **Domain:** Federal / DoD Operations
 **Type:** Current-State Flowchart
 
-[View Diagram](Chief%20of%20Staff%20Tasker%20and%20Package%20Corresponde....pdf)
+[View Diagram](Chief%20of%20Staff%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
 Documents the end-to-end tasker and package correspondence lifecycle managed through the Chief of Staff office — mapping creation, review, approval/rejection decision gates, escalation paths, and final signature across the chain of command.
 
@@ -105,19 +77,7 @@ Documents the end-to-end tasker and package correspondence lifecycle managed thr
 
 ---
 
-### 6. IBR Front Desk Office Tasker & Package Correspondence
-**Domain:** Federal / DoD Operations
-**Type:** Current-State Flowchart
-
-[View Diagram](IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Corre....pdf)
-
-Documents the front desk office tasker and package correspondence process — capturing intake, routing, Correspondence Manager review, DASD approval gates, and return loops for rejected packages.
-
-**Key process elements:** Package intake → CM review → approve/reject → DASD review → approved & signed → return to originator
-
----
-
-### 7. DASD IBR Action Memo Process
+### 4. DASD IBR Action Memo Process
 **Domain:** Federal / DoD — Deputy Assistant Secretary of Defense
 **Type:** Current-State Flowchart
 
@@ -129,7 +89,7 @@ Maps the action memo process at the DASD level — documenting the workflow from
 
 ---
 
-### 8. GIES Task Management Process
+### 5. GIES Task Management Process
 **Domain:** Federal / DoD — Government Information & Enterprise Systems
 **Type:** Current-State BPMN
 
@@ -141,7 +101,19 @@ Documents the task management workflow within the GIES program environment — m
 
 ---
 
-### 9. Meeting & Scheduling Process
+### 6. IBR Front Desk Office Tasker & Package Correspondence
+**Domain:** Federal / DoD Operations
+**Type:** Current-State Flowchart
+
+[View Diagram](IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
+
+Documents the front desk office tasker and package correspondence process — capturing intake, routing, Correspondence Manager review, DASD approval gates, and return loops for rejected packages.
+
+**Key process elements:** Package intake → CM review → approve/reject → DASD review → approved & signed → return to originator
+
+---
+
+### 7. Meeting & Scheduling Process
 **Domain:** Federal / DoD Operations
 **Type:** Current-State BPMN
 
@@ -153,19 +125,19 @@ Documents the end-to-end meeting and scheduling coordination process across DoD 
 
 ---
 
-### 10. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Retrieval
+### 8. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal
 **Domain:** Federal / DoD — Pentagon Facilities & Workspace Management
 **Type:** Current-State BPMN Swimlane (Multi-page)
 
-[View Diagram](Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Pa....pdf)
+[View Diagram](Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Parts%20in%20Ventory_Removal.pdf)
 
-Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and retrieval process for the Pentagon Workspace Solutions Branch (PASB) — mapping workflows across Customer, PASB, Vendor, and administrative swim lanes including inventory requests, fulfillment, vendor coordination, and delivery confirmation.
+Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and removal process for the Pentagon Workspace Solutions Branch (PASB) — mapping workflows across Customer, PASB, Vendor, and administrative swim lanes including inventory requests, fulfillment, vendor coordination, and delivery confirmation.
 
 **Key process elements:** Inventory request → PASB review → vendor coordination → order fulfillment → delivery → confirmation & closure
 
 ---
 
-### 11. Public Affairs Reporter Request Process
+### 9. Public Affairs Reporter Request Process
 **Domain:** Federal / DoD — Public Affairs
 **Type:** Current-State Flowchart
 
