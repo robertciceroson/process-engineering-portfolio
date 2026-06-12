@@ -1,6 +1,6 @@
 # Process Engineering Portfolio — Robert C. Son
 
-**Business Process Analyst · Process Engineer · Organizational Improvement Specialist**
+**Business Process Analyst · Process Engineer · Organizational Improvement Specialist**  
 Richmond, VA · rson226@gmail.com · [LinkedIn](https://linkedin.com/in/robert-son-0b33b3bb) · [GitHub ML Portfolio](https://github.com/robertciceroson)
 
 ---
@@ -16,7 +16,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 ## Portfolio Overview
 
 | # | Diagram | Domain | Engagement | Type |
-|---|---------|--------|------------|------|
+|---|---------|--------|------------|----|
 | 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
@@ -26,6 +26,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 10 | [OUSD A&S IBR As-Is Process Mapping Package](#10-ousd-as--industrial-base-resilience-as-is-process-mapping-full-package) | Federal / DoD | OUSD A&S Pentagon | As-Is Package (SOPs + 10 Maps) |
 
 ---
 
@@ -36,11 +37,12 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 ---
 
 ### 1. Smoke Testing – Monthly Outages Process
-**Engagement:** Zantech IT Services · DoD Army CID Program
-**Domain:** Federal IT / QA Testing
+
+**Engagement:** Zantech IT Services · DoD Army CID Program  
+**Domain:** Federal IT / QA Testing  
 **Type:** Current-State Flowchart
 
-[View Diagram](Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
 
 Documents the monthly outage smoke testing process across three concurrent Army CID systems (ALERTS, DRS, ACIS) — mapping test initiation across Production, Train, and Test environments, system availability validation, broken functionality notification, and Test Lead sign-off workflows. Applies to CIMS TEST and TRAIN environments on the third Monday of each month and CIMS Production on the third Wednesday.
 
@@ -49,11 +51,12 @@ Documents the monthly outage smoke testing process across three concurrent Army 
 ---
 
 ### 2. Smoke Testing – New Functionality / New Release
-**Engagement:** Zantech IT Services · DoD Army CID Program
-**Domain:** Federal IT / QA Testing
+
+**Engagement:** Zantech IT Services · DoD Army CID Program  
+**Domain:** Federal IT / QA Testing  
 **Type:** Current-State Flowchart
 
-[View Diagram](Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
 
 Documents the smoke testing process for new functionality releases across ALERTS, DRS, and ACIS — mapping new functionality validation, smoke test breakdown review, broken functionality notification, and Test Lead sign-off. References CIMS Test and Train environment configurations (PENTAGON, USDB, Bucca Training Site).
 
@@ -66,10 +69,11 @@ Documents the smoke testing process for new functionality releases across ALERTS
 ---
 
 ### 3. Chief of Staff Tasker & Package Correspondence
-**Domain:** Federal / DoD Operations
+
+**Domain:** Federal / DoD Operations  
 **Type:** Current-State Flowchart
 
-[View Diagram](Chief%20of%20Staff%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Chief%20of%20Staff%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
 Documents the end-to-end tasker and package correspondence lifecycle managed through the Chief of Staff office — mapping creation, review, approval/rejection decision gates, escalation paths, and final signature across the chain of command.
 
@@ -78,10 +82,11 @@ Documents the end-to-end tasker and package correspondence lifecycle managed thr
 ---
 
 ### 4. DASD IBR Action Memo Process
-**Domain:** Federal / DoD — Deputy Assistant Secretary of Defense
+
+**Domain:** Federal / DoD — Deputy Assistant Secretary of Defense  
 **Type:** Current-State Flowchart
 
-[View Diagram](DASD%20IBR%20Action%20Memo%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/DASD%20IBR%20Action%20Memo%20Process.pdf)
 
 Maps the action memo process at the DASD level — documenting the workflow from memo initiation through staffing, review cycles, approval gates, and final signature authority within the IBR organizational structure.
 
@@ -90,10 +95,11 @@ Maps the action memo process at the DASD level — documenting the workflow from
 ---
 
 ### 5. GIES Task Management Process
-**Domain:** Federal / DoD — Government Information & Enterprise Systems
+
+**Domain:** Federal / DoD — Government Information & Enterprise Systems  
 **Type:** Current-State BPMN
 
-[View Diagram](GIES%20Task%20Management%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/GIES%20Task%20Management%20Process.pdf)
 
 Documents the task management workflow within the GIES program environment — mapping task assignment, tracking, escalation, and closure across program staff and government stakeholders.
 
@@ -102,10 +108,11 @@ Documents the task management workflow within the GIES program environment — m
 ---
 
 ### 6. IBR Front Desk Office Tasker & Package Correspondence
-**Domain:** Federal / DoD Operations
+
+**Domain:** Federal / DoD Operations  
 **Type:** Current-State Flowchart
 
-[View Diagram](IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
 Documents the front desk office tasker and package correspondence process — capturing intake, routing, Correspondence Manager review, DASD approval gates, and return loops for rejected packages.
 
@@ -114,10 +121,11 @@ Documents the front desk office tasker and package correspondence process — ca
 ---
 
 ### 7. Meeting & Scheduling Process
-**Domain:** Federal / DoD Operations
+
+**Domain:** Federal / DoD Operations  
 **Type:** Current-State BPMN
 
-[View Diagram](Meeting%20%26%20Scheduling%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20%26%20Scheduling%20Process.pdf)
 
 Documents the end-to-end meeting and scheduling coordination process across DoD program offices — capturing request intake, calendar coordination, confirmation, and pre-meeting preparation workflows.
 
@@ -126,10 +134,11 @@ Documents the end-to-end meeting and scheduling coordination process across DoD 
 ---
 
 ### 8. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal
-**Domain:** Federal / DoD — Pentagon Facilities & Workspace Management
+
+**Domain:** Federal / DoD — Pentagon Facilities & Workspace Management  
 **Type:** Current-State BPMN Swimlane (Multi-page)
 
-[View Diagram](Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Parts%20in%20Ventory_Removal.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Parts%20in%20Ventory_Removal.pdf)
 
 Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and removal process for the Pentagon Workspace Solutions Branch (PASB) — mapping workflows across Customer, PASB, Vendor, and administrative swim lanes including inventory requests, fulfillment, vendor coordination, and delivery confirmation.
 
@@ -138,14 +147,47 @@ Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and remo
 ---
 
 ### 9. Public Affairs Reporter Request Process
-**Domain:** Federal / DoD — Public Affairs
+
+**Domain:** Federal / DoD — Public Affairs  
 **Type:** Current-State Flowchart
 
-[View Diagram](Public%20Affairs%20Reporter%20Request%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Public%20Affairs%20Reporter%20Request%20Process.pdf)
 
 Documents the reporter request intake and approval process within a DoD Public Affairs office — mapping request submission, review, approval/denial decision gates, coordination, and response delivery.
 
 **Key process elements:** Reporter request intake → PA review → approve/deny → coordination → response delivery
+
+---
+
+### 10. OUSD A&S – Industrial Base Resilience As-Is Process Mapping (Full Package)
+
+**Engagement:** OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR)  
+**Domain:** Federal / DoD — Pentagon Senior Executive Operations  
+**Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
+
+[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering_Final.pdf)
+
+Comprehensive as-is process mapping engagement for the IBR Front Office supporting the Deputy Assistant Secretary of Defense (DASD) — conducted over an initial 90-day discovery period including stakeholder interviews, process observation, and gap analysis. Produced 2 SOPs and 10 process maps across correspondence, task management, CFIUS national security review, document storage, legislative affairs, and public affairs workflows.
+
+**Key outcomes:** Zero missed DASD approvals after implementing folder-based approval system (previously email-tracked); reduced package approval cycle time; improved information flow and role clarity across the IBR organization.
+
+| # | Process Map | Key Roles |
+|---|-------------|-----------|
+| 1 | IBR Front Office Tasker & Package Correspondence | Action Officer, Correspondence Manager, DASD |
+| 2 | Chief of Staff Tasker & Package Correspondence | AO, Chief of Staff, DASD |
+| 3 | DASD IBP Submittal Process | DASD, IBP Front Office, ASD |
+| 4 | DASD IBR Action Memo Process | CM, AO, Directorate COS, Director, OGC/LA |
+| 5 | DASD IBR Support CFIUS Process | DASD, Treasury (USDT), OGC/LA, CFIUS |
+| 6 | GIES Storage & Documentation Process | GIES, SharePoint, O-Drive, USDT |
+| 7 | MCEIP Storage & Documentation Process | MCEIP Staff, O-Drive, SharePoint |
+| 8 | Legislative Affairs Package Request Process | OUSD Legislative Affairs, BAA, IBR Front Office |
+| 9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
+| 10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
+| 11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
+
+**Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
+
+*Note: This document has been reviewed and sanitized for public release. Personally identifiable information and internal system URLs have been redacted.*
 
 ---
 
