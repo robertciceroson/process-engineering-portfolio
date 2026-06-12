@@ -26,7 +26,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 10 | [OUSD A&S IBR As-Is Process Mapping Package](#10-ousd-as--industrial-base-resilience-as-is-process-mapping-full-package) | Federal / DoD | OUSD A&S Pentagon | As-Is Package (SOPs + 10 Maps) |
+| 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | OUSD Agency Pentagon | As-Is Package (SOPs + 10 Maps) |
 
 ---
 
