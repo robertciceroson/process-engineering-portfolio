@@ -159,13 +159,13 @@ Documents the reporter request intake and approval process within a DoD Public A
 
 ---
 
-### 10. OUSD A&S – Industrial Base Resilience As-Is Process Mapping (Full Package)
+### 10. OUSD As-Is Process Engineering (Full Package)
 
 **Engagement:** OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR)  
 **Domain:** Federal / DoD — Pentagon Senior Executive Operations  
 **Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
 
-[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering_Final.pdf)
+[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering.pdf)
 
 Comprehensive as-is process mapping engagement for the IBR Front Office supporting the Deputy Assistant Secretary of Defense (DASD) — conducted over an initial 90-day discovery period including stakeholder interviews, process observation, and gap analysis. Produced 2 SOPs and 10 process maps across correspondence, task management, CFIUS national security review, document storage, legislative affairs, and public affairs workflows.
 
