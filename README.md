@@ -7,7 +7,11 @@ Richmond, VA · rson226@gmail.com · [LinkedIn](https://linkedin.com/in/robert-s
 
 ## About This Portfolio
 
-8+ years of business process engineering across federal DoD programs and commercial enterprises — standardizing, optimizing, and documenting complex workflows as BPMN swimlane diagrams, flowcharts, and future-state designs. This portfolio showcases representative process work across DoD agency engagements supporting the Army CID program and various Pentagon organizations.
+8+ years of business process engineering across federal DoD programs and commercial enterprises — standardizing, optimizing, and documenting complex workflows as BPMN swimlane diagrams, flowcharts, and future-state designs.
+
+This portfolio showcases representative process work spanning two client engagements: Army CID enterprise systems modernization (Zantech IT Services) and a Pentagon DoD agency process improvement engagement (Skybridge Aviation, subcontracted under Makai Defense as prime). Additional commercial process engineering work from Copper River Technologies and Skybridge Aviation's core aviation operations is described below; those diagrams are proprietary and not published here.
+
+> This portfolio demonstrates exactly the kind of institutional knowledge capture — translating what lives in people's heads, on paper, and in shared drives into structured, measurable, repeatable workflows — that modern process platforms are built to scale.
 
 All diagrams are built in Microsoft Visio and viewable directly in this repository without any login or software.
 
@@ -16,17 +20,17 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 ## Portfolio Overview
 
 | # | Diagram | Domain | Engagement | Type |
-|---|---------|--------|------------|----|
+|---|---------|--------|------------|------|
 | 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
-| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
-| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | OUSD Agency Pentagon | As-Is Package (SOPs + 10 Maps) |
+| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
+| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
+| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN |
+| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
+| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN |
+| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN Swimlane |
+| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
+| 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | As-Is Package (SOPs + 10 Maps) |
 
 ---
 
@@ -46,7 +50,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 Documents the monthly outage smoke testing process across three concurrent Army CID systems (ALERTS, DRS, ACIS) — mapping test initiation across Production, Train, and Test environments, system availability validation, broken functionality notification, and Test Lead sign-off workflows. Applies to CIMS TEST and TRAIN environments on the third Monday of each month and CIMS Production on the third Wednesday.
 
-**Key process elements:** Monitor Monthly Outage Status → environment routing (Production/Train/Test) → smoke test execution → broken functionality notification → Test Lead (Bob Son) sign-off → Gov't POC coordination
+**Key process elements:** Monitor Monthly Outage Status → environment routing (Production/Train/Test) → smoke test execution → broken functionality notification → Test Lead sign-off → Gov't POC coordination
 
 ---
 
@@ -64,12 +68,15 @@ Documents the smoke testing process for new functionality releases across ALERTS
 
 ---
 
-### Pentagon DoD Agency Engagements
+### Pentagon DoD Agency Engagements — Skybridge Aviation (Subcontract: Makai Defense)
+
+*Note: The following process diagrams were produced during a subcontract engagement through Skybridge Aviation, with Makai Defense serving as the prime contractor for Pentagon DoD agency clients. This is standard federal contracting structure — the work was performed for and delivered to the end DoD clients listed.*
 
 ---
 
 ### 3. Chief of Staff Tasker & Package Correspondence
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD Operations  
 **Type:** Current-State Flowchart
 
@@ -83,6 +90,7 @@ Documents the end-to-end tasker and package correspondence lifecycle managed thr
 
 ### 4. DASD IBR Action Memo Process
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD — Deputy Assistant Secretary of Defense  
 **Type:** Current-State Flowchart
 
@@ -96,6 +104,7 @@ Maps the action memo process at the DASD level — documenting the workflow from
 
 ### 5. GIES Task Management Process
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD — Government Information & Enterprise Systems  
 **Type:** Current-State BPMN
 
@@ -109,6 +118,7 @@ Documents the task management workflow within the GIES program environment — m
 
 ### 6. IBR Front Desk Office Tasker & Package Correspondence
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD Operations  
 **Type:** Current-State Flowchart
 
@@ -122,6 +132,7 @@ Documents the front desk office tasker and package correspondence process — ca
 
 ### 7. Meeting & Scheduling Process
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD Operations  
 **Type:** Current-State BPMN
 
@@ -135,6 +146,7 @@ Documents the end-to-end meeting and scheduling coordination process across DoD 
 
 ### 8. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD — Pentagon Facilities & Workspace Management  
 **Type:** Current-State BPMN Swimlane (Multi-page)
 
@@ -148,6 +160,7 @@ Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and remo
 
 ### 9. Public Affairs Reporter Request Process
 
+**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
 **Domain:** Federal / DoD — Public Affairs  
 **Type:** Current-State Flowchart
 
@@ -161,7 +174,7 @@ Documents the reporter request intake and approval process within a DoD Public A
 
 ### 10. OUSD As-Is Process Engineering (Full Package)
 
-**Engagement:** OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR)  
+**Engagement:** Skybridge Aviation (subcontract: Makai Defense) · OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR)  
 **Domain:** Federal / DoD — Pentagon Senior Executive Operations  
 **Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
 
@@ -191,6 +204,40 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 
 ---
 
+## Additional Commercial Engagements (Proprietary — Diagrams Not Published)
+
+The following engagements produced significant process engineering deliverables. Diagrams and documentation remain proprietary to the respective clients and are not published here; scope and methodology are described for reference.
+
+---
+
+### Copper River Technologies — Enterprise Process Standardization
+
+**Engagement:** Management Analyst / Business Analyst · Chantilly, VA · May 2023 – Dec 2023  
+**Domain:** DoD-Adjacent Enterprise — Multi-Functional Business Operations  
+**Scope:** 50+ enterprise business processes across 12 functional areas
+
+Standardized 50+ enterprise business processes across 12 functional areas as BPMN swimlane diagrams — defining and tracking process KPIs, co-facilitating 7 SME working sessions, capturing 30+ requirements, and producing 6 change-request impact analyses. Maintained complete documentation and traceability matrices throughout each engagement.
+
+*Diagrams and documentation were produced on government-furnished equipment (GFE) in support of DoD clients and remained government property at contract close. No deliverables are available for public release.*
+
+**Methodology applied:** Discovery workshops → current-state BPMN mapping → KPI definition → gap analysis → future-state recommendations → traceability matrix
+
+---
+
+### Skybridge Aviation — Enterprise Process Standardization (Core Operations)
+
+**Engagement:** Business Analyst · Orlando, FL · Jan 2024 – Apr 2024  
+**Domain:** Commercial Enterprise — Aviation Operations (17 Departments)  
+**Scope:** 30+ end-to-end business processes across 17 departments
+
+Gathered and documented requirements across 17 departments — standardizing 30+ end-to-end business processes as BPMN swimlane diagrams, conducting gap and root cause analysis, defining process KPIs, and presenting findings and recommendations to 3 stakeholder groups via Power BI dashboards. Managed requirements tracking and sprint deliverables in Jira.
+
+*Note: Pentagon DoD agency process work (diagrams #3–10 above) was also performed during this engagement period through a subcontract arrangement with Makai Defense as prime.*
+
+**Methodology applied:** Discovery → current-state BPMN mapping → gap & root cause analysis → KPI definition → Power BI dashboard reporting → stakeholder sign-off
+
+---
+
 ## Methodology
 
 All process work follows a consistent improvement methodology:
@@ -201,7 +248,7 @@ All process work follows a consistent improvement methodology:
 4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
 5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
 
-**Tools:** Microsoft Visio · BPMN 2.0 · draw.io · Power BI · SharePoint · Jira · Azure DevOps
+**Tools:** Microsoft Visio · BPMN 2.0 · draw.io · Power BI · SharePoint · Jira · Azure DevOps · Excel
 
 ---
 
