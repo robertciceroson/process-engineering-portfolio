@@ -198,12 +198,17 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 | 10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
 | 11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
 
-### 11. CIMS Helpdesk – Creating & Responding to SL Tickets Process
+## 11. CIMS Helpdesk – Creating & Responding to SL Tickets Process
 
-**Engagement: Zantech IT Services · Army CID Enterprise Systems (ALERTS, DRS, ACIS)
-**Domain: Federal IT / DoD — Army Criminal Investigation Division
-**Type: Current-State Flowchart
+**Engagement:** Zantech IT Services · Army CID Enterprise Systems (ALERTS, DRS, ACIS)
+**Domain:** Federal IT / DoD — Army Criminal Investigation Division
+**Type:** Current-State Flowchart
 
+[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf)
+
+Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket lifecycle for the Army CID helpdesk, from initial user intake through resolution and closure. Covers ticket creation, duplicate-ticket prevention via team chat, required field completion (ticket description, source, user contact, and system data), SLA documentation via email reply tracking, tiered escalation from Tier 1 Help Desk to Tier 2/3 systems POCs, and status update conventions for pending versus resolved tickets.
+
+Key process elements: Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure.
 **Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
 
 *Note: This document has been reviewed and sanitized for public release. Personally identifiable information and internal system URLs have been redacted.*
