@@ -198,6 +198,12 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 | 10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
 | 11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
 
+### 11. CIMS Helpdesk – Creating & Responding to SL Tickets Process
+
+**Engagement: Zantech IT Services · Army CID Enterprise Systems (ALERTS, DRS, ACIS)
+**Domain: Federal IT / DoD — Army Criminal Investigation Division
+**Type: Current-State Flowchart
+
 **Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
 
 *Note: This document has been reviewed and sanitized for public release. Personally identifiable information and internal system URLs have been redacted.*
