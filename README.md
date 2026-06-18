@@ -174,44 +174,43 @@ Documents the reporter request intake and approval process within a DoD Public A
 
 ### 10. OUSD As-Is Process Engineering (Full Package)
 
-**Engagement:** Skybridge Aviation (subcontract: Makai Defense) · OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR)  
-**Domain:** Federal / DoD — Pentagon Senior Executive Operations  
-**Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
+**Engagement:** Skybridge Aviation (subcontract: Makai Defense) · OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR) **Domain:** Federal / DoD — Pentagon Senior Executive Operations **Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
 
-[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering.pdf)
+[View Full Document](#)
 
 Comprehensive as-is process mapping engagement for the IBR Front Office supporting the Deputy Assistant Secretary of Defense (DASD) — conducted over an initial 90-day discovery period including stakeholder interviews, process observation, and gap analysis. Produced 2 SOPs and 10 process maps across correspondence, task management, CFIUS national security review, document storage, legislative affairs, and public affairs workflows.
 
 **Key outcomes:** Zero missed DASD approvals after implementing folder-based approval system (previously email-tracked); reduced package approval cycle time; improved information flow and role clarity across the IBR organization.
 
 | # | Process Map | Key Roles |
-|---|-------------|-----------|
-| 1 | IBR Front Office Tasker & Package Correspondence | Action Officer, Correspondence Manager, DASD |
-| 2 | Chief of Staff Tasker & Package Correspondence | AO, Chief of Staff, DASD |
-| 3 | DASD IBP Submittal Process | DASD, IBP Front Office, ASD |
-| 4 | DASD IBR Action Memo Process | CM, AO, Directorate COS, Director, OGC/LA |
-| 5 | DASD IBR Support CFIUS Process | DASD, Treasury (USDT), OGC/LA, CFIUS |
-| 6 | GIES Storage & Documentation Process | GIES, SharePoint, O-Drive, USDT |
-| 7 | MCEIP Storage & Documentation Process | MCEIP Staff, O-Drive, SharePoint |
-| 8 | Legislative Affairs Package Request Process | OUSD Legislative Affairs, BAA, IBR Front Office |
-| 9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
-| 10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
-| 11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
+| --- | --- | --- |
+| 10.1 | IBR Front Office Tasker & Package Correspondence | Action Officer, Correspondence Manager, DASD |
+| 10.2 | Chief of Staff Tasker & Package Correspondence | AO, Chief of Staff, DASD |
+| 10.3 | DASD IBP Submittal Process | DASD, IBP Front Office, ASD |
+| 10.4 | DASD IBR Action Memo Process | CM, AO, Directorate COS, Director, OGC/LA |
+| 10.5 | DASD IBR Support CFIUS Process | DASD, Treasury (USDT), OGC/LA, CFIUS |
+| 10.6 | GIES Storage & Documentation Process | GIES, SharePoint, O-Drive, USDT |
+| 10.7 | MCEIP Storage & Documentation Process | MCEIP Staff, O-Drive, SharePoint |
+| 10.8 | Legislative Affairs Package Request Process | OUSD Legislative Affairs, BAA, IBR Front Office |
+| 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
+| 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
+| 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
 
-## 11. CIMS Helpdesk – Creating & Responding to SL Tickets Process
-
-**Engagement:** Zantech IT Services · Army CID Enterprise Systems (ALERTS, DRS, ACIS)
-**Domain:** Federal IT / DoD — Army Criminal Investigation Division
-**Type:** Current-State Flowchart
-
-[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf)
-
-Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket lifecycle for the Army CID helpdesk, from initial user intake through resolution and closure. Covers ticket creation, duplicate-ticket prevention via team chat, required field completion (ticket description, source, user contact, and system data), SLA documentation via email reply tracking, tiered escalation from Tier 1 Help Desk to Tier 2/3 systems POCs, and status update conventions for pending versus resolved tickets.
-
-Key process elements: Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure.
 **Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
 
 *Note: This document has been reviewed and sanitized for public release. Personally identifiable information and internal system URLs have been redacted.*
+
+---
+
+### 11. CIMS Helpdesk – Creating & Responding to SL Tickets Process
+
+**Engagement:** Zantech IT Services · Army CID Enterprise Systems (ALERTS, DRS, ACIS) **Domain:** Federal IT / DoD — Army Criminal Investigation Division **Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf)
+
+Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket lifecycle for the Army CID helpdesk, from initial user intake through resolution and closure. Covers ticket creation, duplicate-ticket prevention via team chat, required field completion (ticket description, source, user contact, and system data), SLA documentation via email reply tracking, tiered escalation from Tier 1 Help Desk to Tier 2/3 systems POCs, and status update conventions for pending versus resolved tickets.
+
+**Key process elements:** Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure.
 
 ---
 
