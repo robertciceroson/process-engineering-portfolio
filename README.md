@@ -31,7 +31,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN Swimlane |
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | As-Is Package (SOPs + 10 Maps) |
-| 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS_Help_Desk_Creating_and_Responding_to_SL_Tickets_Process.pdf) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 ---
 
 ## Diagrams
