@@ -32,6 +32,8 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
 | 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
 | 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
+| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+
 ---
 
 ## Diagrams
@@ -195,6 +197,7 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 | 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
 | 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
 | 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
+| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 
 **Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
 
@@ -211,6 +214,8 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket lifecycle for the Army CID helpdesk, from initial user intake through resolution and closure. Covers ticket creation, duplicate-ticket prevention via team chat, required field completion (ticket description, source, user contact, and system data), SLA documentation via email reply tracking, tiered escalation from Tier 1 Help Desk to Tier 2/3 systems POCs, and status update conventions for pending versus resolved tickets.
 
 **Key process elements:** Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure.
+
+| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 
 ---
 
