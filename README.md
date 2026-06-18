@@ -1,6 +1,6 @@
 # Process Engineering Portfolio — Robert C. Son
 
-**Business Process Analyst · Process Engineer · Organizational Improvement Specialist**  
+**Business Process Analyst · Process Engineer · Organizational Improvement Specialist**
 Richmond, VA · rson226@gmail.com · [LinkedIn](https://linkedin.com/in/robert-son-0b33b3bb) · [GitHub ML Portfolio](https://github.com/robertciceroson)
 
 ---
@@ -19,20 +19,20 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 ## Portfolio Overview
 
-| # | Process Map | Key Roles |
-|---|---|---|
-| 10.1 | IBR Front Office Tasker & Package Correspondence | Action Officer, Correspondence Manager, DASD |
-| 10.2 | Chief of Staff Tasker & Package Correspondence | AO, Chief of Staff, DASD |
-| 10.3 | DASD IBP Submittal Process | DASD, IBP Front Office, ASD |
-| 10.4 | DASD IBR Action Memo Process | CM, AO, Directorate COS, Director, OGC/LA |
-| 10.5 | DASD IBR Support CFIUS Process | DASD, Treasury (USDT), OGC/LA, CFIUS |
-| 10.6 | GIES Storage & Documentation Process | GIES, SharePoint, O-Drive, USDT |
-| 10.7 | MCEIP Storage & Documentation Process | MCEIP Staff, O-Drive, SharePoint |
-| 10.8 | Legislative Affairs Package Request Process | OUSD Legislative Affairs, BAA, IBR Front Office |
-| 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
-| 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
-| 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
-| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| # | Diagram | Domain | Engagement | Type |
+| --- | --- | --- | --- | --- |
+| 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
+| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
+| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
+| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD — Pentagon Senior Executive Operations | Skybridge Aviation (subcontract: Makai Defense) | As-Is Process Mapping Package · SOPs · Stakeholder Analysis |
+| 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](#11-cims-helpdesk--creating--responding-to-sl-tickets-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 
 ---
 
@@ -44,9 +44,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 ### 1. Smoke Testing – Monthly Outages Process
 
-**Engagement:** Zantech IT Services · DoD Army CID Program  
-**Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
+**Engagement:** Zantech IT Services · DoD Army CID Program **Domain:** Federal IT / QA Testing **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
 
@@ -58,9 +56,7 @@ Documents the monthly outage smoke testing process across three concurrent Army 
 
 ### 2. Smoke Testing – New Functionality / New Release
 
-**Engagement:** Zantech IT Services · DoD Army CID Program  
-**Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
+**Engagement:** Zantech IT Services · DoD Army CID Program **Domain:** Federal IT / QA Testing **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
 
@@ -70,17 +66,13 @@ Documents the smoke testing process for new functionality releases across ALERTS
 
 ---
 
-### Pentagon DoD Agency Engagements — Skybridge Aviation (Subcontract: Makai Defense)
-
-*Note: The following process diagrams were produced during a subcontract engagement through Skybridge Aviation, with Makai Defense serving as the prime contractor for Pentagon DoD agency clients. This is standard federal contracting structure — the work was performed for and delivered to the end DoD clients listed.*
+### Pentagon DoD Agency Engagements
 
 ---
 
 ### 3. Chief of Staff Tasker & Package Correspondence
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD Operations  
-**Type:** Current-State Flowchart
+**Domain:** Federal / DoD Operations **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Chief%20of%20Staff%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
@@ -92,9 +84,7 @@ Documents the end-to-end tasker and package correspondence lifecycle managed thr
 
 ### 4. DASD IBR Action Memo Process
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD — Deputy Assistant Secretary of Defense  
-**Type:** Current-State Flowchart
+**Domain:** Federal / DoD — Deputy Assistant Secretary of Defense **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/DASD%20IBR%20Action%20Memo%20Process.pdf)
 
@@ -106,9 +96,7 @@ Maps the action memo process at the DASD level — documenting the workflow from
 
 ### 5. GIES Task Management Process
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD — Government Information & Enterprise Systems  
-**Type:** Current-State BPMN
+**Domain:** Federal / DoD — Government Information & Enterprise Systems **Type:** Current-State BPMN
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/GIES%20Task%20Management%20Process.pdf)
 
@@ -120,9 +108,7 @@ Documents the task management workflow within the GIES program environment — m
 
 ### 6. IBR Front Desk Office Tasker & Package Correspondence
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD Operations  
-**Type:** Current-State Flowchart
+**Domain:** Federal / DoD Operations **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
@@ -134,9 +120,7 @@ Documents the front desk office tasker and package correspondence process — ca
 
 ### 7. Meeting & Scheduling Process
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD Operations  
-**Type:** Current-State BPMN
+**Domain:** Federal / DoD Operations **Type:** Current-State BPMN
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20%26%20Scheduling%20Process.pdf)
 
@@ -148,9 +132,7 @@ Documents the end-to-end meeting and scheduling coordination process across DoD 
 
 ### 8. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD — Pentagon Facilities & Workspace Management  
-**Type:** Current-State BPMN Swimlane (Multi-page)
+**Domain:** Federal / DoD — Pentagon Facilities & Workspace Management **Type:** Current-State BPMN Swimlane (Multi-page)
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Parts%20in%20Ventory_Removal.pdf)
 
@@ -162,9 +144,7 @@ Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and remo
 
 ### 9. Public Affairs Reporter Request Process
 
-**Engagement:** Skybridge Aviation (sub: Makai Defense) · Pentagon DoD Agencies  
-**Domain:** Federal / DoD — Public Affairs  
-**Type:** Current-State Flowchart
+**Domain:** Federal / DoD — Public Affairs **Type:** Current-State Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Public%20Affairs%20Reporter%20Request%20Process.pdf)
 
@@ -178,7 +158,7 @@ Documents the reporter request intake and approval process within a DoD Public A
 
 **Engagement:** Skybridge Aviation (subcontract: Makai Defense) · OUSD Acquisition & Sustainment · Industrial Base Policy / Industrial Base Resilience (IBR) **Domain:** Federal / DoD — Pentagon Senior Executive Operations **Type:** As-Is Process Mapping Package · SOPs · Stakeholder Analysis
 
-[View Full Document]([View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering.pdf))
+[View Full Document](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/OUSD_As_Is_Process_Engineering.pdf)
 
 Comprehensive as-is process mapping engagement for the IBR Front Office supporting the Deputy Assistant Secretary of Defense (DASD) — conducted over an initial 90-day discovery period including stakeholder interviews, process observation, and gap analysis. Produced 2 SOPs and 10 process maps across correspondence, task management, CFIUS national security review, document storage, legislative affairs, and public affairs workflows.
 
@@ -197,7 +177,6 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 | 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
 | 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
 | 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
-| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 
 **Key process elements:** Correspondence lifecycle → COS/CM review gates → DASD approval → CFIUS national security review → SharePoint/O-Drive document management → Legislative Affairs RFI coordination → Public Affairs reporter request approval chain
 
@@ -213,43 +192,25 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 
 Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket lifecycle for the Army CID helpdesk, from initial user intake through resolution and closure. Covers ticket creation, duplicate-ticket prevention via team chat, required field completion (ticket description, source, user contact, and system data), SLA documentation via email reply tracking, tiered escalation from Tier 1 Help Desk to Tier 2/3 systems POCs, and status update conventions for pending versus resolved tickets.
 
-**Key process elements:** Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure.
+**Key process elements:** Email/phone intake → duplicate-ticket check → SL ticket creation → required field validation → SLA documentation → Tier 1 resolution or escalation to systems POC → status tracking (Open/Pending) → resolution and closure
 
-| 12 | [CAC_TASS Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+---
+
+### 12. CAC_TASS Process
+
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf)
+
+Current-state swimlane flowchart documenting the CAC (Common Access Card) and TASS (Trusted Associate Sponsorship System) provisioning process for contractor facility and IT access at the Pentagon — mapping roles across COR (Customer), Applicant, HRD PSOD, and WHS SO lanes. Covers DD1172 form submission and validation, DISS adjudication check, security clearance determination, TASS application creation and approval, and HSPD-12 processing through to CAC issuance.
+
+**Key process elements:** COR identifies access need → DD1172 completion & submission → DD1172 validation gate → DISS adjudication check → security clearance gate → Contractor FSO action (if required) → TASS application creation → applicant completes TASS → WHS SO approval → HSPD-12 processing → END
 
 ---
 
 ## Additional Commercial Engagements (Proprietary — Diagrams Not Published)
 
-The following engagements produced significant process engineering deliverables. Diagrams and documentation remain proprietary to the respective clients and are not published here; scope and methodology are described for reference.
-
----
-
-### Copper River Technologies — Enterprise Process Standardization
-
-**Engagement:** Management Analyst / Business Analyst · Chantilly, VA · May 2023 – Dec 2023  
-**Domain:** DoD-Adjacent Enterprise — Multi-Functional Business Operations  
-**Scope:** 50+ enterprise business processes across 12 functional areas
-
-Standardized 50+ enterprise business processes across 12 functional areas as BPMN swimlane diagrams — defining and tracking process KPIs, co-facilitating 7 SME working sessions, capturing 30+ requirements, and producing 6 change-request impact analyses. Maintained complete documentation and traceability matrices throughout each engagement.
-
-*Diagrams and documentation were produced on government-furnished equipment (GFE) in support of DoD clients and remained government property at contract close. No deliverables are available for public release.*
-
-**Methodology applied:** Discovery workshops → current-state BPMN mapping → KPI definition → gap analysis → future-state recommendations → traceability matrix
-
----
-
-### Skybridge Aviation — Enterprise Process Standardization (Core Operations)
-
-**Engagement:** Business Analyst · Orlando, FL · Jan 2024 – Apr 2024  
-**Domain:** Commercial Enterprise — Aviation Operations (17 Departments)  
-**Scope:** 30+ end-to-end business processes across 17 departments
-
-Gathered and documented requirements across 17 departments — standardizing 30+ end-to-end business processes as BPMN swimlane diagrams, conducting gap and root cause analysis, defining process KPIs, and presenting findings and recommendations to 3 stakeholder groups via Power BI dashboards. Managed requirements tracking and sprint deliverables in Jira.
-
-*Note: Pentagon DoD agency process work (diagrams #3–10 above) was also performed during this engagement period through a subcontract arrangement with Makai Defense as prime.*
-
-**Methodology applied:** Discovery → current-state BPMN mapping → gap & root cause analysis → KPI definition → Power BI dashboard reporting → stakeholder sign-off
+The following engagements produced significant process engineering deliverables. Diagrams and documentation remain proprietary to the client organizations and are not published here.
 
 ---
 
@@ -263,7 +224,7 @@ All process work follows a consistent improvement methodology:
 4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
 5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
 
-**Tools:** Microsoft Visio · BPMN 2.0 · draw.io · Power BI · SharePoint · Jira · Azure DevOps · Excel
+**Tools:** Microsoft Visio · BPMN 2.0 · draw.io · Power BI · SharePoint · Jira · Azure DevOps
 
 ---
 
