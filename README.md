@@ -19,19 +19,19 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 ## Portfolio Overview
 
-| # | Diagram | Domain | Engagement | Type |
-|---|---------|--------|------------|------|
-| 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
-| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
-| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN |
-| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
-| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN |
-| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State BPMN Swimlane |
-| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | Current-State Flowchart |
-| 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | Skybridge Aviation (sub: Makai Defense) | As-Is Package (SOPs + 10 Maps) |
-| 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| # | Process Map | Key Roles |
+|---|---|---|
+| 10.1 | IBR Front Office Tasker & Package Correspondence | Action Officer, Correspondence Manager, DASD |
+| 10.2 | Chief of Staff Tasker & Package Correspondence | AO, Chief of Staff, DASD |
+| 10.3 | DASD IBP Submittal Process | DASD, IBP Front Office, ASD |
+| 10.4 | DASD IBR Action Memo Process | CM, AO, Directorate COS, Director, OGC/LA |
+| 10.5 | DASD IBR Support CFIUS Process | DASD, Treasury (USDT), OGC/LA, CFIUS |
+| 10.6 | GIES Storage & Documentation Process | GIES, SharePoint, O-Drive, USDT |
+| 10.7 | MCEIP Storage & Documentation Process | MCEIP Staff, O-Drive, SharePoint |
+| 10.8 | Legislative Affairs Package Request Process | OUSD Legislative Affairs, BAA, IBR Front Office |
+| 10.9 | Meeting & Scheduling Process | DASD, Front Office Staff, Invitees |
+| 10.10 | PA&T Package Process | AO, Technical Editors, Deputy Director, Director |
+| 10.11 | Public Affairs Reporter Request Process | PA, IBP FO, IBR FO, ASD, PDASD, USD FO |
 ---
 
 ## Diagrams
