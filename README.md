@@ -212,6 +212,8 @@ Current-state swimlane flowchart documenting the CAC (Common Access Card) and TA
 
 The following engagements produced significant process engineering deliverables. Diagrams and documentation remain proprietary to the client organizations and are not published here.
 
+| 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+
 ---
 
 ## Methodology
