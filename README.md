@@ -33,7 +33,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD — Pentagon Senior Executive Operations | Skybridge Aviation (subcontract: Makai Defense) | As-Is Process Mapping Package · SOPs · Stakeholder Analysis |
 | 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](#11-cims-helpdesk--creating--responding-to-sl-tickets-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
-
+| 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 ---
 
 ## Diagrams
