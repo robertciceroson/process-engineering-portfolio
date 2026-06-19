@@ -207,10 +207,15 @@ Current-state swimlane flowchart documenting the CAC (Common Access Card) and TA
 **Key process elements:** COR identifies access need → DD1172 completion & submission → DD1172 validation gate → DISS adjudication check → security clearance gate → Contractor FSO action (if required) → TASS application creation → applicant completes TASS → WHS SO approval → HSPD-12 processing → END
 
 ---
+### 13. Incident Vetting within WHS Security Office Process
 
-The following engagements produced significant process engineering deliverables. Diagrams and documentation remain proprietary to the client organizations and are not published here.
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
 
-| 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf)
+
+Current-state swimlane flowchart documenting the incident vetting and routing process within the WHS Security Office — mapping roles across Incident Manager, Chief of Security, Director of Security, and supporting external offices. Covers initial incident intake and classification across multiple incident categories (HIPAA/Senior Official matters, insider threat, unauthorized disclosure of classified/controlled information, data spills, privacy breaches, USB violations, and miscellaneous security/conduct issues), with appropriate notification and Investigating Officer (IO) appointment routing for each category, including escalation to NCIS, USD(I&S), OGC, and the ESD/OSD-JS Privacy Office as applicable.
+
+**Key process elements:** Incident intake (any source) → category classification gate → notification & IO appointment routing (by incident type) → escalation to appropriate external office (NCIS, USD(I&S), OGC, Privacy Office) → IO investigation support coordination
 
 ---
 
