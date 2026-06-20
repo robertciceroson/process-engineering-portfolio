@@ -35,6 +35,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 14 | [WHS Security Office for DD254 Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| 15 | [WHS Security Office & PSOD Suitability Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 ---
 
 ## Diagrams
@@ -231,6 +232,18 @@ Current-state swimlane flowchart documenting the incident vetting and routing pr
 Current-state swimlane flowchart documenting the DD254 (Security Classification Specification) processing workflow within the WHS Security Office — mapping roles across COR, WHS Security Office, and DCSA lanes. Covers draft DD254 preparation and submission, WHS review and acceptability gate, REVIEWER and Certifying Official signature routing, release for solicitation or to the prime contractor, and — where the vendor/contractor lacks an existing Facility Clearance (FCL) — WHS sponsorship and DCSA processing through interim or final FCL approval.
 
 **Key process elements:** COR drafts & submits DD254 with contract docs → WHS Security review & acceptability gate → REVIEWER signature (WHS) → Certifying Official signature (COR) → DD254 release for solicitation/contractor → FCL status gate → WHS sponsorship & DCSA submission (if no FCL) → DCSA processing & approval gate → interim/final FCL grant → END
+
+---
+
+### 15. WHS Security Office & PSOD Suitability Process
+
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf)
+
+Current-state swimlane flowchart documenting the WHS Security Office and Personnel Security Operations Division (PSOD) suitability process for civilian hires — mapping roles across PSOD, WHS Security Office, and COR lanes. Covers the request initiation for unclassified contractor support, candidate DD Form 1172 submission, DISS background investigation (BI) determination, and — for HSPD-12 candidates — SF-306 and resume intake, Tier 1 background vetting (up to 30 days), Notice of Incoming Personnel (NIP) notification, and final CAC/system access processing with TASS and DISS database upload.
+
+**Key process elements:** Directorate requests unclassified contractor support → acquisition initiates request → COR submits DD Form 1172 → DISS favorable BI gate → (HSPD-12 path) WHS receives SF-306 & resume → PSOD Tier 1 vetting (~30 days) → favorable/approval gate → NIP notification to WHS → CAC & system access processing → TASS processing & DISS database upload → END
 
 ---
 
