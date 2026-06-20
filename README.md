@@ -34,7 +34,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](#11-cims-helpdesk--creating--responding-to-sl-tickets-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
-| 14 | WHS Security Office for DD254 Process | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| 14 | [WHS Security Office for DD254 Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 ---
 
 ## Diagrams
@@ -220,10 +220,17 @@ Current-state swimlane flowchart documenting the incident vetting and routing pr
 
 **Key process elements:** Incident intake (any source) → category classification gate → notification & IO appointment routing (by incident type) → escalation to appropriate external office (NCIS, USD(I&S), OGC, Privacy Office) → IO investigation support coordination
 
-14. WHS Security Office for DD254 Process
+---
 
-Engagement: Copper River Technologies (Prime) · Domain:** Federal IT / DoD — Pentagon Facilities & Access Management Type: Current-State Flowchart
-View Diagram
+### 14. WHS Security Office for DD254 Process
+
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf)
+
+Current-state swimlane flowchart documenting the DD254 (Security Classification Specification) processing workflow within the WHS Security Office — mapping roles across COR, WHS Security Office, and DCSA lanes. Covers draft DD254 preparation and submission, WHS review and acceptability gate, REVIEWER and Certifying Official signature routing, release for solicitation or to the prime contractor, and — where the vendor/contractor lacks an existing Facility Clearance (FCL) — WHS sponsorship and DCSA processing through interim or final FCL approval.
+
+**Key process elements:** COR drafts & submits DD254 with contract docs → WHS Security review & acceptability gate → REVIEWER signature (WHS) → Certifying Official signature (COR) → DD254 release for solicitation/contractor → FCL status gate → WHS sponsorship & DCSA submission (if no FCL) → DCSA processing & approval gate → interim/final FCL grant → END
 
 ---
 
