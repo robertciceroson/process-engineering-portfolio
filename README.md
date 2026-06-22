@@ -1,6 +1,6 @@
 # Process Engineering Portfolio — Robert C. Son
 
-**Business Process Analyst · Process Engineer · Organizational Improvement Specialist**
+**Scrum Master · Process Engineer · Prompt Engineer · Data Analyst · AI/ML Practitioner  **
 Richmond, VA · rson226@gmail.com · [LinkedIn](https://linkedin.com/in/robert-son-0b33b3bb) · [GitHub ML Portfolio](https://github.com/robertciceroson)
 
 ---
