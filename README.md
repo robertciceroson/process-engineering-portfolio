@@ -267,7 +267,7 @@ All process work follows a consistent improvement methodology:
 - **AI Automation (Make.com):** [AI Email Triage & Workflow Routing](https://us2.make.com/public/shared-scenario/Mjk3pseVejK/ai-email-triage-and-work-flow-routing) · [Emails Triage Pipeline](https://us2.make.com/public/shared-scenario/Lyo5kBZHiJe/emails-triage-lead-mkt-svc-other-for-rev) · [Integration Weather](https://us2.make.com/public/shared-scenario/0GNqyWWBf8P/integration-weather)
 
 ---
-Author 
+## Author
 
-*Robert Cicero Son 
+**Robert Cicero Son** 
 Scrum Master · Process Engineer · Prompt Engineer · Data Analyst · AI/ML Practitioner · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
