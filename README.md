@@ -29,7 +29,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD — Pentagon Senior Executive Operations | Skybridge Aviation (subcontract: Makai Defense) | As-Is Process Mapping Package · SOPs · Stakeholder Analysis |
 | 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](#11-cims-helpdesk--creating--responding-to-sl-tickets-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 | 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
@@ -147,7 +147,7 @@ Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and remo
 
 ### 9. Public Affairs Reporter Request Process
 
-**Domain:** Federal / DoD — Public Affairs **Type:** Current-State Flowchart
+**Domain:** Federal / DoD — Public Affairs **Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Public%20Affairs%20Reporter%20Request%20Process.pdf)
 
