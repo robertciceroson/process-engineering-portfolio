@@ -59,7 +59,7 @@ Documents the monthly outage smoke testing process across three concurrent Army 
 
 ### 2. Smoke Testing – New Functionality / New Release
 
-**Engagement:** Zantech IT Services · DoD Army CID Program **Domain:** Federal IT / QA Testing **Type:** Current-State Flowchart
+**Engagement:** Zantech IT Services · DoD Army CID Program **Domain:** Federal IT / QA Testing **Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
 
