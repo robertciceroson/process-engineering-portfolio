@@ -258,6 +258,7 @@ Current-state swimlane flowchart documenting the WHS Security Office and Personn
 Current-state flowchart documenting the end-to-end regression testing workflow for the Army CID enterprise systems (ALERTS, DRS, ACIS) in the Stage 2 Development Environment — mapping roles across QA Analysts, Test Lead/TPM, and Government POC, covering remote desktop login, ADO test plan execution, pass/fail decision routing, and Test Lead coordination with the Government POC on failures.
 
 **Key process elements:** Remote desktop login → ADO test plan selection → test script execution → pass/fail decision gate → Test Lead notification on failure → Gov't POC coordination → End
+
 ---
 
 ## Methodology
