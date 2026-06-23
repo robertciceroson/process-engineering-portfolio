@@ -27,7 +27,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
 | 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
+| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD — Pentagon Senior Executive Operations | Skybridge Aviation (subcontract: Makai Defense) | As-Is Process Mapping Package · SOPs · Stakeholder Analysis |
@@ -123,7 +123,7 @@ Documents the front desk office tasker and package correspondence process — ca
 
 ### 7. Meeting & Scheduling Process
 
-**Domain:** Federal / DoD Operations **Type:** Current-State BPMN
+**Domain:** Federal / DoD Operations **Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20and%20Scheduling%20Process.pdf)
 
