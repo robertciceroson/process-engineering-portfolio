@@ -22,7 +22,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | # | Diagram | Domain | Engagement | Type |
 | --- | --- | --- | --- | --- |
 | 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
 | 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN |
