@@ -35,7 +35,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State BPMN Swimlane |
 | 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State BPMN Swimlane |
 | 14 | [WHS Security Office for DD254 Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State BPMN Swimlane |
-| 15 | [WHS Security Office & PSOD Suitability Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| 15 | [WHS Security Office & PSOD Suitability Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State BPMN Swimlane |
 | 16 | [Regression Testing Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
 ---
 
@@ -238,7 +238,7 @@ Current-state swimlane flowchart documenting the DD254 (Security Classification 
 
 ### 15. WHS Security Office & PSOD Suitability Process
 
-**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf)
 
