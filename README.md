@@ -251,7 +251,7 @@ Current-state swimlane flowchart documenting the WHS Security Office and Personn
 
 **Engagement:** Zantech IT Services · DoD Army CID Program
 **Domain:** Federal IT / QA Testing
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf)
 
