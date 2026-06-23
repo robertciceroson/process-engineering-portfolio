@@ -32,7 +32,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD — Pentagon Senior Executive Operations | Skybridge Aviation (subcontract: Makai Defense) | As-Is Process Mapping Package · SOPs · Stakeholder Analysis |
 | 11 | [CIMS Helpdesk – Creating & Responding to SL Tickets Process](#11-cims-helpdesk--creating--responding-to-sl-tickets-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| 12 | [CAC_TASS Process](#12-cac_tass-process) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State BPMN Swimlane |
 | 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 14 | [WHS Security Office for DD254 Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 15 | [WHS Security Office & PSOD Suitability Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
@@ -201,7 +201,7 @@ Current-state flowchart documenting the end-to-end ScienceLogic (SL) ticket life
 
 ### 12. CAC_TASS Process
 
-**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State Flowchart
+**Engagement:** Copper River Technologies (Prime) · Washington Headquarters Services (WHS) **Domain:** Federal IT / DoD — Pentagon Facilities & Access Management **Type:** Current-State BPMN Swimlane
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf)
 
