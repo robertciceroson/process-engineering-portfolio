@@ -36,6 +36,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 13 | [Incident Vetting within WHS Security Office Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 14 | [WHS Security Office for DD254 Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
 | 15 | [WHS Security Office & PSOD Suitability Process](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf) | Federal IT / DoD — Pentagon Facilities & Access Management | Copper River Technologies (Prime) | Current-State Flowchart |
+| 16 | [Regression Testing Process](Regression_Testing_Process.pdf) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
 ---
 
 ## Diagrams
@@ -245,6 +246,18 @@ Current-state swimlane flowchart documenting the WHS Security Office and Personn
 
 **Key process elements:** Directorate requests unclassified contractor support → acquisition initiates request → COR submits DD Form 1172 → DISS favorable BI gate → (HSPD-12 path) WHS receives SF-306 & resume → PSOD Tier 1 vetting (~30 days) → favorable/approval gate → NIP notification to WHS → CAC & system access processing → TASS processing & DISS database upload → END
 
+---
+### 16. Regression Testing Process
+
+**Engagement:** Zantech IT Services · DoD Army CID Program
+**Domain:** Federal IT / QA Testing
+**Type:** Current-State Flowchart
+
+[View Diagram](Regression_Testing_Process.pdf)
+
+Current-state flowchart documenting the end-to-end regression testing workflow for the Army CID enterprise systems (ALERTS, DRS, ACIS) in the Stage 2 Development Environment — mapping roles across QA Analysts, Test Lead/TPM, and Government POC, covering remote desktop login, ADO test plan execution, pass/fail decision routing, and Test Lead coordination with the Government POC on failures.
+
+**Key process elements:** Remote desktop login → ADO test plan selection → test script execution → pass/fail decision gate → Test Lead notification on failure → Gov't POC coordination → End
 ---
 
 ## Methodology
