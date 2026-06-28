@@ -198,27 +198,6 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 
 ---
 
-### Army CID Program — Zantech IT Services (continued)
-
----
-
-### 13. Regression Testing Process
-
-**Engagement:** Zantech IT Services · DoD Army CID Program  
-**Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
-
-[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf)
-
-Documents the regression testing process for the Army CID CIMS program across Stage 2 (Development Environment) — mapping the full test execution workflow from remote desktop login through Azure DevOps (ADO) test plan execution, pass/fail determination, and Test Lead escalation to the Government POC. Covers testing across MP and CID configurations for ALERTS, DRS, and ACIS systems.
-
-**Key process elements:** Log-in to Remote Desktop (Stage 2 Dev Env) → Select MS Edge → Select ALERTS Log-in (PENTAGON installation) → Log-in to ADO → Select Test Plans → Select Leap Case Management → Select assigned test plan → Execute test scripts → Pass/Fail determination → If Failed: notify Test Lead → Test Lead coordinates with Gov't POC
-
-**Systems referenced:** ADO (Azure DevOps) · CIMS · ALERTS · Stage 2 Dev Environment · PENTAGON / USDB configurations  
-**Key roles:** Tester · Test Lead (Bob Son) · Government POC
-
----
-
 ### Copper River Technologies
 
 ---
@@ -257,6 +236,27 @@ Documents the complete help desk ticket lifecycle for the Army CID CIMS (Court/C
 
 **Systems referenced:** Science Logic (SL) ticketing · CIMS · ACIS · ALERTS · DRS · JARVIS  
 **Systems POCs documented:** ACIS, ALERTS, DBA, CIMS-Analyst, OPS, DPS, EMP, EI, JARVIS, SnF, SPO
+
+---
+
+### 13. Regression Testing Process
+
+**Engagement:** Zantech IT Services · DoD Army CID Program  
+**Domain:** Federal IT / QA Testing  
+**Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf)
+
+Documents the regression testing process for the Army CID CIMS program across Stage 2 (Development Environment) — mapping the full test execution workflow from remote desktop login through Azure DevOps (ADO) test plan execution, pass/fail determination, and Test Lead escalation to the Government POC. Covers testing across MP and CID configurations for ALERTS, DRS, and ACIS systems.
+
+**Key process elements:** Log-in to Remote Desktop (Stage 2 Dev Env) → Select MS Edge → Select ALERTS Log-in (PENTAGON installation) → Log-in to ADO → Select Test Plans → Select Leap Case Management → Select assigned test plan → Execute test scripts → Pass/Fail determination → If Failed: notify Test Lead → Test Lead coordinates with Gov't POC
+
+**Systems referenced:** ADO (Azure DevOps) · CIMS · ALERTS · Stage 2 Dev Environment · PENTAGON / USDB configurations  
+**Key roles:** Tester · Test Lead (Bob Son) · Government POC
+
+---
+
+### Copper River Technologies — WHS Security Office
 
 ---
 
