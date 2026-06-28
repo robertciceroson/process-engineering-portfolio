@@ -29,7 +29,11 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | OUSD Agency Pentagon | As-Is Package (SOPs + 10 Maps) |
 | 11 | [CAC / TASS Contractor Access Credentialing Process](#11-cac--tass-contractor-access-credentialing-process) | Federal IT / DoD | Copper River Technologies | Current-State Flowchart |
 | 12 | [CIMS Help Desk – Creating & Responding to SL Tickets](#12-cims-help-desk--creating--responding-to-sl-tickets) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
-| 13 | [AI Email Triage & Workflow Automation: Value Stream Map](#13-ai-email-triage--workflow-automation-value-stream-map) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
+| 13 | [Regression Testing Process](#13-regression-testing-process) | Federal IT / Army CID | Zantech IT Services | Current-State Flowchart |
+| 14 | [Incident Vetting within the WHS Security Office](#14-incident-vetting-within-the-whs-security-office) | Federal / DoD | Copper River Technologies | Current-State Decision Flowchart |
+| 15 | [WHS Security Office & PSOD Suitability Process](#15-whs-security-office--psod-suitability-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane |
+| 16 | [WHS Security Office for DD254 Process](#16-whs-security-office-for-dd254-process) | Federal / DoD | Copper River Technologies | Current-State Flowchart |
+| 17 | [AI Email Triage & Workflow Automation: Value Stream Map](#17-ai-email-triage--workflow-automation-value-stream-map) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
 
 ---
 
@@ -194,6 +198,27 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 
 ---
 
+### Army CID Program — Zantech IT Services (continued)
+
+---
+
+### 13. Regression Testing Process
+
+**Engagement:** Zantech IT Services · DoD Army CID Program  
+**Domain:** Federal IT / QA Testing  
+**Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf)
+
+Documents the regression testing process for the Army CID CIMS program across Stage 2 (Development Environment) — mapping the full test execution workflow from remote desktop login through Azure DevOps (ADO) test plan execution, pass/fail determination, and Test Lead escalation to the Government POC. Covers testing across MP and CID configurations for ALERTS, DRS, and ACIS systems.
+
+**Key process elements:** Log-in to Remote Desktop (Stage 2 Dev Env) → Select MS Edge → Select ALERTS Log-in (PENTAGON installation) → Log-in to ADO → Select Test Plans → Select Leap Case Management → Select assigned test plan → Execute test scripts → Pass/Fail determination → If Failed: notify Test Lead → Test Lead coordinates with Gov't POC
+
+**Systems referenced:** ADO (Azure DevOps) · CIMS · ALERTS · Stage 2 Dev Environment · PENTAGON / USDB configurations  
+**Key roles:** Tester · Test Lead (Bob Son) · Government POC
+
+---
+
 ### Copper River Technologies
 
 ---
@@ -235,11 +260,63 @@ Documents the complete help desk ticket lifecycle for the Army CID CIMS (Court/C
 
 ---
 
+### 14. Incident Vetting within the WHS Security Office
+
+**Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
+**Domain:** Federal / DoD — Security Operations  
+**Type:** Current-State Decision Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf)
+
+Documents the incident intake and triage workflow within the WHS Security Office — mapping the multi-branch decision logic used to classify incoming incidents by type and route them to the appropriate security, legal, or oversight office. Covers the full spectrum of security incident categories handled by the WHS SO.
+
+**Key process elements:** Receive new incident (any source/method) → Assign to team member → Incident classification decision tree → Route by type: HIPAA, Senior Official, Insider Threat, Unauthorized Disclosure of CNSI, Unauthorized Disclosure of CUI, Failure to Safeguard, Data Spill, Security Breach (Non-DoD Info), Privacy Violation, USB, Misc → Appropriate office notified & appointed IO → OGC engaged as needed → Director of Security determines OGC advisory need → SSO notified when SCI involved
+
+**Offices/agencies referenced:** WHS Security Office · NCIS · OGC · Privacy Office · USD(I&S) · ESD · OSD/JS
+
+---
+
+### 15. WHS Security Office & PSOD Suitability Process
+
+**Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
+**Domain:** Federal / DoD — Personnel Security & Suitability  
+**Type:** Current-State BPMN Swimlane
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf)
+
+Documents the suitability and personnel security vetting process managed jointly by the WHS Security Office and the Personnel Security Operations Division (PSOD) — covering both civilian hire suitability (PSOD) and HSPD-12 contractor credentialing (PSOD + SO). Maps the full workflow from candidate background intake through DISS adjudication, CAC issuance, and system access provisioning.
+
+**Key process elements:** Receives SF306 & candidate background → Vetting & processing (Tier 1 background check) → HSPD-12 processing (30 days) → DISS query to determine favorable Background Investigation (BI) → If favorable: CAC and system(s) access provisioning via internal procedures → Contractor CAC processed through TASS by WHS SO → Uploaded in DISS database → DD1172 requested once contract is established (List of Candidates)
+
+**Systems referenced:** DISS · TASS · SF306 · HSPD-12 · NIP (Notice of Incoming Personnel)  
+**Key swim lanes:** WHS Requesting Office · PSOD · WHS Security Office · Contractor
+
+---
+
+### 16. WHS Security Office for DD254 Process
+
+**Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
+**Domain:** Federal / DoD — Industrial Security / Contract Security Classification  
+**Type:** Current-State Flowchart
+
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf)
+
+Documents the DD254 (DoD Contract Security Classification Specification) processing workflow managed by the WHS Security Office — mapping the multi-party coordination between the Contracting Officer Representative (COR), WHS Security, and vendors/contractors to classify, certify, and release contract security specifications. Includes routing logic between NCCS (online system) and PDF processing based on classification level requirements.
+
+**Key process elements:** COR prepares draft DD254 → submits with contract docs to WHS Security Official → WHS reviews → DD254 signed (certifying official portion) → Released for solicitation or to prime contractor → Prime FCL check → Vendor/contractor FCL/JSG routing → NCCS or PDF processing determination → If classified info present: PDF on SIPRNET required → FCL approval (interim or final) granted when appropriate
+
+**Systems referenced:** NCCS (unclassified system) · DISS · SIPRNET  
+**Key roles:** COR · WHS Security Office · Contracting Officer (GCA) · Prime Contractor  
+**Note:** NCCS and PDF differ — PDF does not have onboarding or role registration; DD254s with actual classified information must use PDF on appropriate classified system
+
+---
+
 ### Commercial AI Automation — Gateway AI Advisory
 
 ---
 
-### 13. AI Email Triage & Workflow Automation: Value Stream Map
+### 17. AI Email Triage & Workflow Automation: Value Stream Map
+
 
 **Engagement:** Gateway AI Advisory (Aug 2025 – Present)  
 **Domain:** Commercial / AI Automation  
