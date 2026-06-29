@@ -379,4 +379,5 @@ All process work follows a consistent improvement methodology:
 
 ---
 
-*Robert C. Son · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance*
+*Robert Cicero Son
+Technical Scrum Master · AI Business Process Analyst · Data Analyst · Translating AI/ML into ROI · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
