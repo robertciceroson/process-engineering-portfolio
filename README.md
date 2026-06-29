@@ -357,6 +357,48 @@ See also: **[AI Workflow ROI Analysis](https://github.com/robertciceroson/AI-wor
 
 ---
 
+## Item #18 — Executive Report Automation: Value Stream Map
+
+**Engagement:** Gateway AI Advisory (Aug 2025 – Present)  
+**Tool:** Make.com · Gemini AI · Google Sheets · Gmail  
+**Files:** `blueprints/DEMO-LATEST.blueprint.json` · `blueprints/DEMO-LATEST-routing.blueprint.json`
+
+### Overview
+
+Value stream map and end-to-end automation for a weekly executive report process. The scenario eliminates 1–2 hours of manual Monday morning labor by pulling calendar event data, synthesizing it through Gemini AI, and routing four section-specific emails directly into Gmail subfolders — zero human touch.
+
+**Stack:** Make.com + Google Gemini 2.5 Flash + Google Sheets + Gmail routing
+
+### Current State — Manual Executive Report
+
+| Metric | Value |
+|---|---|
+| Time per report | 80–105 minutes |
+| Frequency | Weekly (every Monday) |
+| Annual labor hours | 69–91 hours |
+| Process steps | 5 (pull → review → categorize → write → format → send) |
+| Key waste | Manual data collection, repeated formatting, inconsistent categorization |
+
+### Future State — AI-Automated Executive Report
+
+| Metric | Value |
+|---|---|
+| Runtime | ~45 seconds |
+| Frequency | Weekly (scheduled, Monday 9 AM) |
+| Annual labor hours | ~0 |
+| Emails generated | 4 (routed by section) |
+| Key waste eliminated | All manual steps removed |
+
+### ROI Summary
+
+| | Value |
+|---|---|
+| Time saved per week | 1–2 hours |
+| Time saved per year | 52–104 hours |
+| Schedule | Every Monday at 9 AM (automated) |
+
+### Architecture
+
 ## Methodology
 
 All process work follows a consistent improvement methodology:
