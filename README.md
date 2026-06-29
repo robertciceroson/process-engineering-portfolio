@@ -132,7 +132,7 @@ Documents the front desk office tasker and package correspondence process — ca
 **Domain:** Federal / DoD Operations  
 **Type:** Current-State BPMN
 
-[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20%26%20Scheduling%20Process.pdf)
+[View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20and%20Scheduling%20Process.pdf)
 
 Documents the end-to-end meeting and scheduling coordination process across DoD program offices — capturing request intake, calendar coordination, confirmation, and pre-meeting preparation workflows.
 
