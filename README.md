@@ -373,9 +373,9 @@ Value stream map and end-to-end automation for a weekly executive report process
 
 | Metric | Value |
 |---|---|
-| Time per report | 80–105 minutes |
+| Time per report | 120–180 minutes |
 | Frequency | Weekly (every Monday) |
-| Annual labor hours | 69–91 hours |
+| Annual labor hours | 104–156 hours |
 | Process steps | 5 (pull → review → categorize → write → format → send) |
 | Key waste | Manual data collection, repeated formatting, inconsistent categorization |
 
@@ -393,8 +393,8 @@ Value stream map and end-to-end automation for a weekly executive report process
 
 | | Value |
 |---|---|
-| Time saved per week | 1–2 hours |
-| Time saved per year | 52–104 hours |
+| Time saved per week | 2–3 hours |
+| Time saved per year | 104–156 hours |
 | Schedule | Every Monday at 9 AM (automated) |
 
 ### Architecture
