@@ -321,7 +321,7 @@ Documents the DD254 (DoD Contract Security Classification Specification) process
 **Engagement:** Gateway AI Advisory (Aug 2025 – Present)  
 **Domain:** Commercial / AI Automation  
 **Tool:** Microsoft Visio · VSM methodology (Lean)  
-**Files:** [`Current State_versus_Future State Emails Triage Process_VSM.pdf`](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Current%20State_versus_Future%20State%20Emails%20Triage%20Process_VSM.pdf) · `VSM_AI_Email_Triage.vsdx`  
+**Files:** [`Current State_versus_Future State Emails Triage Process_VSM.pdf`](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Current%20State_versus_Future%20State%20Emails%20Triage%20Process_VSM.pdf) · [`VSM_AI_Email_Triage.vsdx`](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/VSM_AI_Email_Triage.vsdx)  
 **Stack:** Make.com + LLM API
 
 Value stream map (VSM) documenting the current-state manual email triage process and the future-state AI-automated process side-by-side — with quantified lead time, cycle time, and labor metrics at each step. Uses standard lean color coding (green = value-added, red = waste) to make the 96% NVA ratio immediately visible.
