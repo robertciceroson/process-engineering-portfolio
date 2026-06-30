@@ -417,8 +417,8 @@ All process work follows a consistent improvement methodology:
 
 - **ML & AI Engineering:** [github.com/robertciceroson](https://github.com/robertciceroson)
 - **AI Workflow ROI Analysis:** [github.com/robertciceroson/AI-workflow-ROI-analysis](https://github.com/robertciceroson/AI-workflow-ROI-analysis)
-- **AI Automation (Make.com):** [AI Email Triage & Workflow Routing](https://us2.make.com/public/shared-scenario/Mjk3pseVejK/ai-email-triage-and-work-flow-routing) · [Emails Triage Pipeline](https://us2.make.com/public/shared-scenario/Lyo5kBZHiJe/emails-triage-lead-mkt-svc-other-for-rev) · [Integration Weather](https://us2.make.com/public/shared-scenario/0GNqyWWBf8P/integration-weather)
-
+- **AI Automation (Make.com):** [AI Email Triage & Workflow Routing](https://us2.make.com/public/shared-scenario/DGcQteIjhPb/ai-emails-triage-and-work-flow-routing) · [Emails Triage Pipeline](https://us2.make.com/public/shared-scenario/Lyo5kBZHiJe/emails-triage-lead-mkt-svc-other-for-rev) · [Integration Weather](https://us2.make.com/public/shared-scenario/0GNqyWWBf8P/integration-weather)
+- **AI Automation (Make.com):** [Executive Report Automation Routing](https://us2.make.com/public/shared-scenario/XV6WrV14ovC/demo-latest-routing)
 ---
 
 *Robert Cicero Son
