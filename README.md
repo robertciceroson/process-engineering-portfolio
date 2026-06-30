@@ -356,6 +356,8 @@ Value stream map (VSM) documenting the current-state manual email triage process
 
 See also: **[AI Workflow ROI Analysis](https://github.com/robertciceroson/AI-workflow-ROI-analysis)** — the CBA/ROI Excel model quantifying the financial case for this engagement.
 
+> **Note on Architecture & Methodology:** This entry is a VSM diagnostic artifact — it documents the process and quantifies the waste, not the automation build itself. The automation architecture and implementation are covered in [Entry #18 — Executive Report Automation: Value Stream Map](#).
+
 ---
 
 ## Item #18 — Executive Report Automation: Value Stream Map
