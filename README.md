@@ -365,7 +365,7 @@ See also: **[AI Workflow ROI Analysis](https://github.com/robertciceroson/AI-wor
 
 ### Overview
 
-Value stream map and end-to-end automation for a weekly executive report process. The scenario eliminates 1–2 hours of manual Monday morning labor by pulling calendar event data, synthesizing it through Gemini AI, and routing four section-specific emails directly into Gmail subfolders — zero human touch.
+Value stream map and end-to-end automation for a weekly executive report process. The scenario eliminates 2-3 hours of manual Monday morning labor by pulling calendar event data, Notes, Emails, Google Sheets, and enterprise databases synthesizing those data through Gemini AI, and routing them into an Executive Report folder with four section-specific emails directly into Gmail subfolders (Needs Leadership Attention, Key Meetings, Decisions Made, and Upcoming Priorities) — zero human touch.
 
 **Stack:** Make.com + Google Gemini 2.5 Flash + Google Sheets + Gmail routing
 
@@ -374,7 +374,7 @@ Value stream map and end-to-end automation for a weekly executive report process
 | Metric | Value |
 |---|---|
 | Time per report | 120–180 minutes |
-| Frequency | Weekly (every Monday) |
+| Frequency | Weekly (every Monday morning) |
 | Annual labor hours | 104–156 hours |
 | Process steps | 5 (pull → review → categorize → write → format → send) |
 | Key waste | Manual data collection, repeated formatting, inconsistent categorization |
@@ -404,7 +404,7 @@ Value stream map and end-to-end automation for a weekly executive report process
 All process work follows a consistent improvement methodology:
 
 1. **Discovery** — SME interviews, stakeholder workshops, system walkthroughs
-2. **Current-State Mapping** — BPMN swimlane diagrams, flowcharts, and value stream maps documenting as-is workflows
+2. **Current-State Mapping** — BPMN flowcharts, and value stream maps documenting as-is workflows
 3. **Gap & Root Cause Analysis** — identifying bottlenecks, redundancies, compliance gaps
 4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
 5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
