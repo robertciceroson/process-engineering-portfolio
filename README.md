@@ -362,6 +362,7 @@ See also: **[AI Workflow ROI Analysis](https://github.com/robertciceroson/AI-wor
 **Engagement:** Gateway AI Advisory (Aug 2025 – Present)  
 **Tool:** Make.com · Gemini AI · Google Sheets · Gmail  
 **Files:** `blueprints/DEMO-LATEST.blueprint.json` · `blueprints/DEMO-LATEST-routing.blueprint.json`
+Files: [executive-report-automation-vsm.pdf](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/executive-report-automation-vsm.pdf)
 
 ### Overview
 
