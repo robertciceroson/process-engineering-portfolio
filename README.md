@@ -426,7 +426,6 @@ See also: **Item #19 — Executive Weekly Briefing Dashboard** — the interacti
 **Engagement:** AI Operations Portfolio Project
 **Tool:** HTML · CSS · JavaScript · Make.com · Gemini 2.5 Flash
 **Files:** [`executive-dashboard/index.html`](./executive-dashboard/index.html) · **Live demo:** [View Dashboard](https://robertciceroson.github.io/process-engineering-portfolio/executive-dashboard/) 
-**Live demo:** [View Dashboard](https://robertciceroson.github.io/process-engineering-portfolio/executive-dashboard/)
 
 ### Overview
 
