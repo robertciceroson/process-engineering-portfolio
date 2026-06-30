@@ -34,7 +34,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 15 | [WHS Security Office & PSOD Suitability Process](#15-whs-security-office--psod-suitability-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane |
 | 16 | [WHS Security Office for DD254 Process](#16-whs-security-office-for-dd254-process) | Federal / DoD | Copper River Technologies | Current-State Flowchart |
 | 17 | [AI Email Triage & Workflow Automation: Value Stream Map](#17-ai-email-triage--workflow-automation-value-stream-map) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
-| 18 | [Executive Report Automation: Value Stream Map](./executive-report-automation/) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
+| 18 | [Executive Report Automation: Value Stream Map](#18-executive-report-automation-value-stream-map)| Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
 ---
 
 ## Diagrams
