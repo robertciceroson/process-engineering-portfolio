@@ -397,6 +397,27 @@ Value stream map and end-to-end automation for a weekly executive report process
 | Time saved per year | 104–156 hours |
 | Schedule | Every Monday at 9 AM (automated) |
 
+### Automation Architecture
+
+### Architecture
+
+## Methodology
+
+All process work follows a consistent improvement methodology:
+
+1. **Discovery** — SME interviews, stakeholder workshops, system walkthroughs
+2. **Current-State Mapping** — BPMN flowcharts, and value stream maps documenting as-is workflows
+3. **Gap & Root Cause Analysis** — identifying bottlenecks, redundancies, compliance gaps
+4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
+5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
+
+**Tools:** Microsoft Visio · BPMN 2.0 · VSM (Lean) · draw.io · Power BI · SharePoint · Jira · Azure DevOps
+
+### Related Portfolio Item
+
+See also: **Item #19 — Executive Weekly Briefing Dashboard** — the interactive HTML dashboard that visualizes this automation's output, with live filtering and collapsible sections.
+[View live dashboard →](https://robertciceroson.github.io/process-engineering-portfolio/executive-dashboard/)
+
 ---
 
 ## Item #19 — Executive Weekly Briefing Dashboard
@@ -430,19 +451,15 @@ The dashboard demonstrates both process automation ROI and front-end data presen
 
 ### Automation Architecture
 
-### Architecture
-
-## Methodology
-
-All process work follows a consistent improvement methodology:
-
-1. **Discovery** — SME interviews, stakeholder workshops, system walkthroughs
-2. **Current-State Mapping** — BPMN flowcharts, and value stream maps documenting as-is workflows
-3. **Gap & Root Cause Analysis** — identifying bottlenecks, redundancies, compliance gaps
-4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
-5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
-
-**Tools:** Microsoft Visio · BPMN 2.0 · VSM (Lean) · draw.io · Power BI · SharePoint · Jira · Azure DevOps
+    Make.com Trigger (Monday 9 AM)
+        ↓
+    Google Sheets — Pull Calendar Events (last 7 days)
+        ↓
+    Array Aggregator
+        ↓
+    Gemini 2.5 Flash — Synthesize + Categorize (structured JSON output)
+        ↓
+    Gmail × 4 — Route by section (Key Meetings / Decisions / Priorities / Attention)
 
 ---
 
