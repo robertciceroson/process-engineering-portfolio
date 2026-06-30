@@ -398,21 +398,28 @@ Value stream map and end-to-end automation for a weekly executive report process
 | Time saved per year | 104–156 hours |
 | Schedule | Every Monday at 9 AM (automated) |
 
-### Automation Architecture
+## Automation Architecture
 
-### Architecture
+The workflow runs on a scheduled Monday 9 AM trigger in Make.com and executes the following pipeline:
+
+1. **Data Collection** — pulls calendar event data, Notes, Emails, and enterprise database entries from Google Sheets
+2. **AI Synthesis** — Gemini AI 2.5 Flash processes and categorizes the raw data into four executive report sections: Key Meetings, Decisions Made, Needs Leadership Attention, and Upcoming Priorities
+3. **Report Formatting** — synthesized content is structured into a clean executive summary format
+4. **Routing & Delivery** — four section-specific emails are routed directly into Gmail subfolders — zero human touch
+
+**Stack:** Make.com · Gemini AI 2.5 Flash · Google Sheets · Gmail
+
+---
 
 ## Methodology
 
-All process work follows a consistent improvement methodology:
+1. **Pain Point Identification** — documented the manual executive report process consuming 120–180 minutes of labor every Monday morning
+2. **Current-State VSM** — mapped the 5-step manual workflow (pull data → review → categorize → write summary → format → send) to surface waste and handoff delays
+3. **Automation Architecture Design** — designed the Make.com pipeline to replicate and eliminate each manual step
+4. **Build & Test** — built and validated the scenario with live data; confirmed ~45-second runtime vs. 120–180 minute manual baseline
+5. **Future-State VSM** — documented the automated workflow alongside the current state to quantify the transformation (104–156 annual hours saved)
 
-1. **Discovery** — SME interviews, stakeholder workshops, system walkthroughs
-2. **Current-State Mapping** — BPMN flowcharts, and value stream maps documenting as-is workflows
-3. **Gap & Root Cause Analysis** — identifying bottlenecks, redundancies, compliance gaps
-4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
-5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
-
-**Tools:** Microsoft Visio · BPMN 2.0 · VSM (Lean) · draw.io · Power BI · SharePoint · Jira · Azure DevOps
+**Tools:** Make.com · Gemini AI 2.5 Flash · Google Sheets · Gmail
 
 ### Related Portfolio Item
 
