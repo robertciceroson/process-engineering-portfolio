@@ -310,6 +310,18 @@ Documents the DD254 (DoD Contract Security Classification Specification) process
 **Key roles:** COR · WHS Security Office · Contracting Officer (GCA) · Prime Contractor  
 **Note:** NCCS and PDF differ — PDF does not have onboarding or role registration; DD254s with actual classified information must use PDF on appropriate classified system
 
+## Methodology
+
+All process work follows a consistent improvement methodology:
+
+1. **Discovery** — SME interviews, stakeholder workshops, system walkthroughs
+2. **Current-State Mapping** — BPMN flowcharts, and value stream maps documenting as-is workflows
+3. **Gap & Root Cause Analysis** — identifying bottlenecks, redundancies, compliance gaps
+4. **Future-State Design** — redesigned workflows with KPIs and improvement targets
+5. **Validation & Handoff** — stakeholder sign-off, documentation, SOP authoring
+
+**Tools:** Microsoft Visio · BPMN 2.0 · VSM (Lean) · draw.io · Power BI · SharePoint · Jira · Azure DevOps
+
 ---
 
 ### Commercial AI Automation — Gateway AI Advisory
