@@ -376,7 +376,7 @@ Value stream map and end-to-end automation for a weekly executive report process
 | Time per report | 120–180 minutes |
 | Frequency | Weekly (every Monday morning) |
 | Annual labor hours | 104–156 hours |
-| Process steps | 5 (pull → review → categorize → write → format → send) |
+| Process steps | 5 (pull various data  → review → categorize → write summary report → format → send to Leadership Team) |
 | Key waste | Manual data collection, repeated formatting, inconsistent categorization |
 
 ### Future State — AI-Automated Executive Report
