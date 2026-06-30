@@ -397,6 +397,39 @@ Value stream map and end-to-end automation for a weekly executive report process
 | Time saved per year | 104–156 hours |
 | Schedule | Every Monday at 9 AM (automated) |
 
+---
+
+## Item #19 — Executive Weekly Briefing Dashboard
+
+**Engagement:** AI Operations Portfolio Project
+**Tool:** HTML · CSS · JavaScript · Make.com · Gemini 2.5 Flash
+**Files:** `executive-dashboard/index.html`
+**Live demo:** [View Dashboard](https://robertciceroson.github.io/process-engineering-portfolio/executive-dashboard/)
+
+### Overview
+
+Interactive executive briefing dashboard that visualizes the output of the Executive Report Automation scenario (Make.com + Gemini 2.5 Flash). Replaces a 2–3 hour weekly manual reporting process with a ~45-second automated run every Monday at 9 AM.
+
+The dashboard demonstrates both process automation ROI and front-end data presentation — two capabilities directly relevant to AI transformation and Chief of Staff roles.
+
+### Dashboard Sections
+
+| Section | Description |
+|---|---|
+| 📅 Key Meetings | Categorized by type: Strategic, Delivery, Stakeholder, Decision |
+| ✅ Decisions Made | Logged with owner, status, and next steps |
+| 🎯 Upcoming Priorities | Due dates, owners, and priority level |
+| ⚠️ Needs Leadership Attention | Blockers, at-risk items, and escalations |
+
+### Interactive Features
+
+- **Filter bar** — filter all four sections simultaneously by priority/status (High, Blocker, Medium, Approved, In Motion, On Track)
+- **Clickable badges** — click any badge to filter by that type; click again to reset to All
+- **Collapsible sections** — click any card header to expand/collapse with smooth animation
+- **Live item count** — updates in real time as filters are applied ("Showing 3 of 15 items")
+
+### Automation Architecture
+
 ### Architecture
 
 ## Methodology
