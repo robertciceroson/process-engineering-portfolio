@@ -493,4 +493,4 @@ The dashboard demonstrates both process automation ROI and front-end data presen
 ---
 
 *Robert Cicero Son
-Technical Scrum Master · AI Business Process Analyst · Data Analyst · Translating AI/ML into ROI · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
+Technical Scrum Master · AI Business Analyst · Process Engineer · Translating AI/ML into ROI · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
