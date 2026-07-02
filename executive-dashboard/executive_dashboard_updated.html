@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Executive Weekly Briefing — AI Operations</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; color: #1a1a1a; min-height: 100vh; }
+
+  /* HEADER */
+  .header { background: #1e3a5f; color: #fff; padding: 22px 36px; display: flex; align-items: center; justify-content: space-between; }
+  .header-left h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: .5px; }
+  .header-left p  { font-size: .85rem; color: #90b4d8; margin-top: 3px; }
+  .header-right   { text-align: right; font-size: .82rem; color: #90b4d8; line-height: 1.6; }
+  .header-right strong { color: #fff; font-size: .9rem; }
+
+  /* FILTER BAR */
+  .filter-bar { background: #fff; border-bottom: 1px solid #e0e8f0; padding: 12px 36px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .filter-bar .filter-label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .6px; color: #666; margin-right: 4px; }
+  .filter-btn {
+    font-size: .73rem; font-weight: 700; padding: 5px 14px; border-radius: 20px;
+    border: 2px solid transparent; cursor: pointer; text-transform: uppercase; letter-spacing: .4px;
+    transition: all .18s ease; background: #f0f4f8; color: #555;
+  }
+  .filter-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,.1); }
+  .filter-btn.active { color: #fff; }
+  .filter-btn[data-filter="all"].active   { background: #1e3a5f; border-color: #1e3a5f; }
+  .filter-btn[data-filter="high"].active  { background: #c0392b; border-color: #c0392b; }
+  .filter-btn[data-filter="med"].active   { background: #d35400; border-color: #d35400; }
+  .filter-btn[data-filter="low"].active   { background: #27ae60; border-color: #27ae60; }
+  .filter-btn[data-filter="blocker"].active { background: #c0392b; border-color: #c0392b; }
+  .filter-btn[data-filter="approved"].active { background: #2e75b6; border-color: #2e75b6; }
+  .filter-btn[data-filter="action"].active  { background: #7d3c98; border-color: #7d3c98; }
+  .filter-count { margin-left: auto; font-size: .78rem; color: #888; font-style: italic; }
+
+  /* KPI STRIP */
+  .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 24px 36px 0; }
+  .kpi { background: #fff; border-radius: 8px; padding: 18px 22px; border-left: 4px solid #2e75b6; box-shadow: 0 1px 4px rgba(0,0,0,.07); }
+  .kpi.green { border-color: #27ae60; }
+  .kpi.amber { border-color: #e67e22; }
+  .kpi .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .7px; color: #666; margin-bottom: 6px; }
+  .kpi .value { font-size: 1.9rem; font-weight: 700; color: #1e3a5f; line-height: 1; }
+  .kpi .sub   { font-size: .78rem; color: #888; margin-top: 4px; }
+
+  /* GRID */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 20px 36px 36px; }
+
+  /* CARDS */
+  .card { background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.07); overflow: hidden; transition: box-shadow .2s; }
+  .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,.1); }
+  .card-header {
+    padding: 14px 20px; font-size: .78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .8px; color: #fff; display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer; user-select: none;
+  }
+  .card-header .header-left-group { display: flex; align-items: center; gap: 8px; }
+  .card-header.blue   { background: #2e75b6; }
+  .card-header.green  { background: #27ae60; }
+  .card-header.purple { background: #7d3c98; }
+  .card-header.amber  { background: #d35400; }
+  .chevron { font-size: .9rem; transition: transform .25s ease; }
+  .card.collapsed .chevron { transform: rotate(-90deg); }
+  .card-body { overflow: hidden; transition: max-height .3s ease, opacity .25s ease; max-height: 600px; opacity: 1; }
+  .card.collapsed .card-body { max-height: 0; opacity: 0; }
+  .item-count { font-size: .7rem; background: rgba(255,255,255,.25); padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+
+  /* ITEMS */
+  .item {
+    display: flex; align-items: flex-start; gap: 12px; padding: 13px 20px;
+    border-bottom: 1px solid #f0f0f0; font-size: .86rem; line-height: 1.45;
+    transition: background .15s, opacity .2s, transform .2s;
+    cursor: default;
+  }
+  .item:last-child { border-bottom: none; }
+  .item:hover { background: #f8fbff; }
+  .item.hidden { display: none; }
+  .item.highlight { background: #fffbf0; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+  .dot.blue   { background: #2e75b6; }
+  .dot.green  { background: #27ae60; }
+  .dot.purple { background: #7d3c98; }
+  .dot.amber  { background: #d35400; }
+  .dot.red    { background: #c0392b; }
+  .item .content { flex: 1; }
+  .item .content .title { font-weight: 600; color: #1e3a5f; }
+  .item .content .meta  { color: #888; font-size: .78rem; margin-top: 2px; }
+
+  /* BADGES — clickable */
+  .badge {
+    font-size: .68rem; font-weight: 700; padding: 3px 10px; border-radius: 10px;
+    text-transform: uppercase; letter-spacing: .4px; white-space: nowrap;
+    flex-shrink: 0; align-self: center; cursor: pointer;
+    transition: transform .15s, box-shadow .15s;
+    border: 1px solid transparent;
+  }
+  .badge:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+  .badge.high     { background: #fdecea; color: #c0392b; border-color: #f5c6c2; }
+  .badge.med      { background: #fef5e7; color: #d35400; border-color: #f5ddb0; }
+  .badge.low      { background: #eafaf1; color: #27ae60; border-color: #b0e8c4; }
+  .badge.done     { background: #eaf0fb; color: #2e75b6; border-color: #b8d0ef; }
+  .badge.action   { background: #f5eef8; color: #7d3c98; border-color: #d5b8e8; }
+  .badge.blocker  { background: #fdecea; color: #c0392b; border-color: #f5c6c2; }
+  .badge.atrisk   { background: #fef5e7; color: #d35400; border-color: #f5ddb0; }
+  .badge.decision { background: #fef5e7; color: #d35400; border-color: #f5ddb0; }
+  .badge.active-filter { box-shadow: 0 0 0 2px #1e3a5f; }
+
+  /* NO RESULTS */
+  .no-results { display: none; padding: 20px; text-align: center; color: #aaa; font-size: .85rem; font-style: italic; }
+  .no-results.visible { display: block; }
+
+  /* AUTOMATION STRIP */
+  .auto-strip { background: #1e3a5f; color: #fff; margin: 0 36px 36px; border-radius: 8px; padding: 18px 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .auto-strip .al { font-size: .75rem; color: #90b4d8; text-transform: uppercase; letter-spacing: .6px; }
+  .auto-strip .stat { font-size: 1.4rem; font-weight: 700; }
+  .auto-strip .divider { width: 1px; height: 40px; background: #2e75b6; }
+  .auto-strip .tag { font-size: .75rem; background: #2e75b6; padding: 4px 12px; border-radius: 12px; color: #fff; margin-top: 4px; display: inline-block; }
+
+  /* FOOTER */
+  .footer { text-align: center; font-size: .75rem; color: #aaa; padding: 0 36px 28px; }
+  .footer a { color: #2e75b6; text-decoration: none; }
+
+  /* EMPTY CARD STATE */
+  .card-empty { padding: 18px 20px; text-align: center; color: #bbb; font-size: .83rem; font-style: italic; display: none; }
+  .card-empty.visible { display: block; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Executive Weekly Briefing</h1>
+    <p>AI Operations &amp; Strategy · Chief of Staff Dashboard</p>
+  </div>
+  <div class="header-right">
+    <strong id="week-label">Week of —</strong><br>
+    Generated: Monday 9:00 AM · Auto-delivered via Make.com<br>
+    Model: Gemini 2.5 Flash · Source: Google Calendar
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <span class="filter-label">Filter by:</span>
+  <button class="filter-btn active" data-filter="all">All items</button>
+  <button class="filter-btn" data-filter="high">🔴 High</button>
+  <button class="filter-btn" data-filter="blocker">⛔ Blocker</button>
+  <button class="filter-btn" data-filter="med">🟠 Medium</button>
+  <button class="filter-btn" data-filter="approved">✅ Approved</button>
+  <button class="filter-btn" data-filter="action">🟣 In Motion</button>
+  <button class="filter-btn" data-filter="low">🟢 On Track</button>
+  <span class="filter-count" id="filterCount">Showing all 15 items</span>
+</div>
+
+<!-- KPI STRIP -->
+<div class="kpi-strip">
+  <div class="kpi">
+    <div class="label">Items This Week</div>
+    <div class="value">14</div>
+    <div class="sub">Calendar events reviewed</div>
+  </div>
+  <div class="kpi green">
+    <div class="label">Decisions Made</div>
+    <div class="value">4</div>
+    <div class="sub">Logged &amp; distributed</div>
+  </div>
+  <div class="kpi amber">
+    <div class="label">Needs Attention</div>
+    <div class="value">3</div>
+    <div class="sub">Leadership action required</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Time Saved</div>
+    <div class="value">2–3<span style="font-size:1rem">h</span></div>
+    <div class="sub">vs. manual report prep</div>
+  </div>
+</div>
+
+<!-- MAIN GRID -->
+<div class="grid">
+
+  <!-- KEY MEETINGS -->
+  <div class="card" id="card-meetings">
+    <div class="card-header blue" onclick="toggleCard('card-meetings')">
+      <div class="header-left-group">📅 Key Meetings <span class="item-count" id="count-meetings">4</span></div>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="card-body">
+      <div class="item" data-badge="done">
+        <div class="dot blue"></div>
+        <div class="content"><div class="title">Q3 AI Roadmap Review</div><div class="meta">Mon · All hands · Exec team + Product leads</div></div>
+        <span class="badge done" data-filter-val="done" onclick="filterByBadge('done')">Strategic</span>
+      </div>
+      <div class="item" data-badge="done">
+        <div class="dot blue"></div>
+        <div class="content"><div class="title">Workato Integration Kickoff</div><div class="meta">Tue · IT + Operations · Sprint 1 scope finalized</div></div>
+        <span class="badge done" data-filter-val="done" onclick="filterByBadge('done')">Delivery</span>
+      </div>
+      <div class="item" data-badge="med">
+        <div class="dot blue"></div>
+        <div class="content"><div class="title">Vendor Review — LLM Platforms</div><div class="meta">Wed · Procurement · Build-vs-buy decision pending</div></div>
+        <span class="badge med" data-filter-val="med" onclick="filterByBadge('med')">Decision</span>
+      </div>
+      <div class="item" data-badge="done">
+        <div class="dot blue"></div>
+        <div class="content"><div class="title">Change Management Workshop</div><div class="meta">Thu · HR + Department heads · Adoption planning</div></div>
+        <span class="badge done" data-filter-val="done" onclick="filterByBadge('done')">Stakeholder</span>
+      </div>
+      <div class="card-empty" id="empty-meetings">No items match the current filter.</div>
+    </div>
+  </div>
+
+  <!-- DECISIONS MADE -->
+  <div class="card" id="card-decisions">
+    <div class="card-header green" onclick="toggleCard('card-decisions')">
+      <div class="header-left-group">✅ Decisions Made <span class="item-count" id="count-decisions">4</span></div>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="card-body">
+      <div class="item" data-badge="approved">
+        <div class="dot green"></div>
+        <div class="content"><div class="title">Approved: Make.com → Workato migration in Q4</div><div class="meta">Owner: VP Operations · Timeline: Oct 1 start</div></div>
+        <span class="badge done" data-filter-val="approved" onclick="filterByBadge('approved')">Approved</span>
+      </div>
+      <div class="item" data-badge="approved">
+        <div class="dot green"></div>
+        <div class="content"><div class="title">Gemini selected as primary LLM for internal tools</div><div class="meta">Owner: CTO · Bedrock retained for compliance workloads</div></div>
+        <span class="badge done" data-filter-val="approved" onclick="filterByBadge('approved')">Approved</span>
+      </div>
+      <div class="item" data-badge="approved">
+        <div class="dot green"></div>
+        <div class="content"><div class="title">Headcount: 1 AI Analyst approved for Q3</div><div class="meta">Owner: CHRO · JD in progress · Target start Aug 1</div></div>
+        <span class="badge done" data-filter-val="approved" onclick="filterByBadge('approved')">Approved</span>
+      </div>
+      <div class="item" data-badge="action">
+        <div class="dot green"></div>
+        <div class="content"><div class="title">Pilot scope confirmed: 3 automations by EOQ</div><div class="meta">Report gen, onboarding checklist, contract review</div></div>
+        <span class="badge action" data-filter-val="action" onclick="filterByBadge('action')">In Motion</span>
+      </div>
+      <div class="card-empty" id="empty-decisions">No items match the current filter.</div>
+    </div>
+  </div>
+
+  <!-- UPCOMING PRIORITIES -->
+  <div class="card" id="card-priorities">
+    <div class="card-header purple" onclick="toggleCard('card-priorities')">
+      <div class="header-left-group">🎯 Upcoming Priorities <span class="item-count" id="count-priorities">4</span></div>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="card-body">
+      <div class="item" data-badge="high">
+        <div class="dot purple"></div>
+        <div class="content"><div class="title">Finalize Q3 AI KPI framework</div><div class="meta">Due Jul 7 · Owner: AI Strategy Lead</div></div>
+        <span class="badge high" data-filter-val="high" onclick="filterByBadge('high')">High</span>
+      </div>
+      <div class="item" data-badge="high">
+        <div class="dot purple"></div>
+        <div class="content"><div class="title">Submit board slide deck — AI transformation update</div><div class="meta">Due Jul 10 · Owner: Chief of Staff</div></div>
+        <span class="badge high" data-filter-val="high" onclick="filterByBadge('high')">High</span>
+      </div>
+      <div class="item" data-badge="med">
+        <div class="dot purple"></div>
+        <div class="content"><div class="title">Pilot automation #1 go-live: Executive Report</div><div class="meta">Due Jul 14 · Owner: AI Ops · Currently in UAT</div></div>
+        <span class="badge med" data-filter-val="med" onclick="filterByBadge('med')">Med</span>
+      </div>
+      <div class="item" data-badge="low">
+        <div class="dot purple"></div>
+        <div class="content"><div class="title">Stakeholder training — cohort 1 (15 staff)</div><div class="meta">Due Jul 18 · Owner: L&amp;D · Materials drafted</div></div>
+        <span class="badge low" data-filter-val="low" onclick="filterByBadge('low')">On Track</span>
+      </div>
+      <div class="card-empty" id="empty-priorities">No items match the current filter.</div>
+    </div>
+  </div>
+
+  <!-- NEEDS ATTENTION -->
+  <div class="card" id="card-attention">
+    <div class="card-header amber" onclick="toggleCard('card-attention')">
+      <div class="header-left-group">⚠️ Needs Leadership Attention <span class="item-count" id="count-attention">3</span></div>
+      <span class="chevron">▾</span>
+    </div>
+    <div class="card-body">
+      <div class="item" data-badge="blocker">
+        <div class="dot red"></div>
+        <div class="content"><div class="title">Data governance policy — not yet signed off</div><div class="meta">Blocking LLM rollout · Escalation needed by Jul 5</div></div>
+        <span class="badge blocker" data-filter-val="blocker" onclick="filterByBadge('blocker')">Blocker</span>
+      </div>
+      <div class="item" data-badge="med">
+        <div class="dot amber"></div>
+        <div class="content"><div class="title">IT security review delayed — Workato connector</div><div class="meta">3-week slip risk · Owner: CISO · Needs calendar priority</div></div>
+        <span class="badge atrisk" data-filter-val="med" onclick="filterByBadge('med')">At Risk</span>
+      </div>
+      <div class="item" data-badge="med">
+        <div class="dot amber"></div>
+        <div class="content"><div class="title">Budget variance: AI tooling +$12K over Q2 forecast</div><div class="meta">CFO approval needed for Q3 carry-forward</div></div>
+        <span class="badge decision" data-filter-val="med" onclick="filterByBadge('med')">Decision</span>
+      </div>
+      <div class="card-empty" id="empty-attention">No items match the current filter.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- AUTOMATION STRIP -->
+<div class="auto-strip">
+  <div><div class="al">Automation</div><div class="stat">Make.com</div><div class="tag">Executive Report Scenario</div></div>
+  <div class="divider"></div>
+  <div><div class="al">Runtime</div><div class="stat">~45 sec</div><div class="tag">Every Monday 9 AM</div></div>
+  <div class="divider"></div>
+  <div><div class="al">AI Model</div><div class="stat">Gemini 2.5</div><div class="tag">Structured JSON output</div></div>
+  <div class="divider"></div>
+  <div><div class="al">Emails Sent</div><div class="stat">4</div><div class="tag">Routed by section</div></div>
+  <div class="divider"></div>
+  <div><div class="al">Annual Time Saved</div><div class="stat">104–156 h</div><div class="tag">vs. manual process</div></div>
+</div>
+
+<div class="footer">
+  Part of the <a href="https://github.com/robertciceroson/process-engineering-portfolio">Process Engineering Portfolio</a> by Robert Cicero Son ·
+  <a href="https://github.com/robertciceroson/AI-workflow-ROI-analysis">AI Workflow ROI Analysis</a>
+</div>
+
+<script>
+  // ── Dynamic week label ────────────────────────────────────────────────────
+  (function () {
+    const now    = new Date();
+    const day    = now.getDay();                      // 0 = Sun, 1 = Mon …
+    const diff   = day === 0 ? -6 : 1 - day;         // offset to Monday
+    const monday = new Date(now);
+    monday.setDate(now.getDate() + diff);
+    const label  = monday.toLocaleDateString('en-US', {
+      month: 'long', day: 'numeric', year: 'numeric'
+    });
+    document.getElementById('week-label').textContent = 'Week of ' + label;
+  })();
+
+  // ── Filter logic ──────────────────────────────────────────────────────────
+  const TOTAL = 15;
+  let activeFilter = 'all';
+
+  const cards = [
+    { id: 'card-meetings',   emptyId: 'empty-meetings',   countId: 'count-meetings' },
+    { id: 'card-decisions',  emptyId: 'empty-decisions',  countId: 'count-decisions' },
+    { id: 'card-priorities', emptyId: 'empty-priorities', countId: 'count-priorities' },
+    { id: 'card-attention',  emptyId: 'empty-attention',  countId: 'count-attention' },
+  ];
+
+  function applyFilter(filter) {
+    activeFilter = filter;
+    let totalVisible = 0;
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+
+    cards.forEach(({ id, emptyId, countId }) => {
+      const card = document.getElementById(id);
+      const items = card.querySelectorAll('.item');
+      let cardVisible = 0;
+
+      items.forEach(item => {
+        const badge = item.dataset.badge;
+        const show  = filter === 'all' || badge === filter;
+        item.classList.toggle('hidden', !show);
+        if (show) { cardVisible++; totalVisible++; }
+      });
+
+      document.getElementById(countId).textContent = cardVisible;
+      const empty = document.getElementById(emptyId);
+      empty.classList.toggle('visible', cardVisible === 0);
+    });
+
+    const label = document.getElementById('filterCount');
+    label.textContent = filter === 'all'
+      ? `Showing all ${TOTAL} items`
+      : `Showing ${totalVisible} of ${TOTAL} items`;
+  }
+
+  function filterByBadge(val) {
+    applyFilter(activeFilter === val ? 'all' : val);
+  }
+
+  function toggleCard(id) {
+    document.getElementById(id).classList.toggle('collapsed');
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+  });
+</script>
+</body>
+</html>
