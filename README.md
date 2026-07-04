@@ -17,22 +17,22 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 | # | Diagram | Domain | Engagement | Type |
 |---|---|---|---|---|
-| 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
-| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
+| 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart |
+| 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart |
 | 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
+| 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Florchart|
+| 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
 | 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
-| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
-| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane |
+| 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
+| 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
+| 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart |
 | 10 | [OUSD As-Is Process Engineering (Full Package)](#10-ousd-as-is-process-engineering-full-package) | Federal / DoD | OUSD Agency Pentagon | As-Is Package (SOPs + 10 Maps) |
-| 11 | [CAC / TASS Contractor Access Credentialing Process](#11-cac--tass-contractor-access-credentialing-process) | Federal IT / DoD | Copper River Technologies | Current-State Flowchart |
-| 12 | [CIMS Help Desk – Creating & Responding to SL Tickets](#12-cims-help-desk--creating--responding-to-sl-tickets) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
-| 13 | [Regression Testing Process](#13-regression-testing-process) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane |
-| 14 | [Incident Vetting within the WHS Security Office](#14-incident-vetting-within-the-whs-security-office) | Federal / DoD | Copper River Technologies | Current-State Decision BPMN Swimlane |
-| 15 | [WHS Security Office & PSOD Suitability Process](#15-whs-security-office--psod-suitability-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane |
-| 16 | [WHS Security Office for DD254 Process](#16-whs-security-office-for-dd254-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane |
+| 11 | [CAC / TASS Contractor Access Credentialing Process](#11-cac--tass-contractor-access-credentialing-process) | Federal IT / DoD | Copper River Technologies | Current-State BPMN Swimlane Flowchart |
+| 12 | [CIMS Help Desk – Creating & Responding to SL Tickets](#12-cims-help-desk--creating--responding-to-sl-tickets) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart |
+| 13 | [Regression Testing Process](#13-regression-testing-process) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart|
+| 14 | [Incident Vetting within the WHS Security Office](#14-incident-vetting-within-the-whs-security-office) | Federal / DoD | Copper River Technologies | Current-State Decision BPMN Swimlane Flowchart|
+| 15 | [WHS Security Office & PSOD Suitability Process](#15-whs-security-office--psod-suitability-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane Flowchart|
+| 16 | [WHS Security Office for DD254 Process](#16-whs-security-office-for-dd254-process) | Federal / DoD | Copper River Technologies | Current-State BPMN Swimlane Flowchart |
 | 17 | [AI Email Triage & Workflow Automation: Value Stream Map](#17-ai-email-triage--workflow-automation-value-stream-map) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
 | 18 | [Executive Report Automation: Value Stream Map](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/executive-report-automation-vsm.pdf) | Commercial / AI Automation | Gateway AI Advisory | Current + Future State VSM |
 | 19 | [Executive Weekly Briefing Dashboard](https://robertciceroson.github.io/process-engineering-portfolio/executive-dashboard/) | Commercial / AI Automation | AI Operations Portfolio | Interactive HTML Dashboard |
@@ -48,7 +48,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 
 **Engagement:** Zantech IT Services · DoD Army CID Program  
 **Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20Monthly%20Outages%20Process.pdf)
 
@@ -62,7 +62,7 @@ Documents the monthly outage smoke testing process across three concurrent Army 
 
 **Engagement:** Zantech IT Services · DoD Army CID Program  
 **Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
+**Type:** Current-State Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Smoke%20Testing%20for%20New%20Functionality_New%20Release%20Process.pdf)
 
@@ -79,7 +79,7 @@ Documents the smoke testing process for new functionality releases across ALERTS
 ### 3. Chief of Staff Tasker & Package Correspondence
 
 **Domain:** Federal / DoD Operations  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Chief%20of%20Staff%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
@@ -92,7 +92,7 @@ Documents the end-to-end tasker and package correspondence lifecycle managed thr
 ### 4. DASD IBR Action Memo Process
 
 **Domain:** Federal / DoD — Deputy Assistant Secretary of Defense  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/DASD%20IBR%20Action%20Memo%20Process.pdf)
 
@@ -105,7 +105,7 @@ Maps the action memo process at the DASD level — documenting the workflow from
 ### 5. GIES Task Management Process
 
 **Domain:** Federal / DoD — Government Information & Enterprise Systems  
-**Type:** Current-State BPMN
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/GIES%20Task%20Management%20Process.pdf)
 
@@ -131,7 +131,7 @@ Documents the front desk office tasker and package correspondence process — ca
 ### 7. Meeting & Scheduling Process
 
 **Domain:** Federal / DoD Operations  
-**Type:** Current-State BPMN
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Meeting%20and%20Scheduling%20Process.pdf)
 
@@ -144,7 +144,7 @@ Documents the end-to-end meeting and scheduling coordination process across DoD 
 ### 8. Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal
 
 **Domain:** Federal / DoD — Pentagon Facilities & Workspace Management  
-**Type:** Current-State BPMN Swimlane (Multi-page)
+**Type:** Current-State BPMN Swimlane (Multi-page) Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Pentagon%20Workspace%20Solutions%20Branch%20Kit%20of%20Parts%20in%20Ventory_Removal.pdf)
 
@@ -157,7 +157,7 @@ Multi-page BPMN swimlane diagram documenting the Kit of Parts inventory and remo
 ### 9. Public Affairs Reporter Request Process
 
 **Domain:** Federal / DoD — Public Affairs  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Public%20Affairs%20Reporter%20Request%20Process.pdf)
 
@@ -207,7 +207,7 @@ Comprehensive as-is process mapping engagement for the IBR Front Office supporti
 
 **Engagement:** Copper River Technologies  
 **Domain:** Federal IT / DoD Security Credentialing  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CAC_TASS%20Process.pdf)
 
@@ -227,7 +227,7 @@ Documents the end-to-end process for DoD contractors to obtain a Common Access C
 
 **Engagement:** Zantech IT Services · DoD Army CID Program  
 **Domain:** Federal IT / Help Desk Operations  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/CIMS%20Help%20Desk_Creating%20and%20Responding%20to%20SL%20Tickets%20Process.pdf)
 
@@ -244,7 +244,7 @@ Documents the complete help desk ticket lifecycle for the Army CID CIMS (Court/C
 
 **Engagement:** Zantech IT Services · DoD Army CID Program  
 **Domain:** Federal IT / QA Testing  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Regression%20Testing%20Process.pdf)
 
@@ -265,7 +265,7 @@ Documents the regression testing process for the Army CID CIMS program across St
 
 **Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
 **Domain:** Federal / DoD — Security Operations  
-**Type:** Current-State Decision Flowchart
+**Type:** Current-State Decision BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/Incident%20Vetting%20within%20the%20WHS%20Security%20Process.pdf)
 
@@ -281,7 +281,7 @@ Documents the incident intake and triage workflow within the WHS Security Office
 
 **Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
 **Domain:** Federal / DoD — Personnel Security & Suitability  
-**Type:** Current-State BPMN Swimlane
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20and%20PSOD%20Suitability%20Process%20Map.pdf)
 
@@ -298,7 +298,7 @@ Documents the suitability and personnel security vetting process managed jointly
 
 **Engagement:** Copper River Technologies · Washington Headquarters Services (WHS) Security Office  
 **Domain:** Federal / DoD — Industrial Security / Contract Security Classification  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/WHS%20Security%20Office%20for%20DD254%20Process.pdf)
 
