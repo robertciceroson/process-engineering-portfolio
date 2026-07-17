@@ -22,7 +22,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 | 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
 | 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Florchart|
 | 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
-| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart |
 | 7 | [Meeting & Scheduling Process](#7-meeting--scheduling-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
 | 8 | [Pentagon Workspace Solutions Branch – Kit of Parts Inventory/Removal](#8-pentagon-workspace-solutions-branch--kit-of-parts-inventoryremoval) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
 | 9 | [Public Affairs Reporter Request Process](#9-public-affairs-reporter-request-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart |
@@ -118,7 +118,7 @@ Documents the task management workflow within the GIES program environment — m
 ### 6. IBR Front Desk Office Tasker & Package Correspondence
 
 **Domain:** Federal / DoD Operations  
-**Type:** Current-State Flowchart
+**Type:** Current-State BPMN Swimlane Flowchart
 
 [View Diagram](https://github.com/robertciceroson/process-engineering-portfolio/blob/main/IBR%20Front%20Desk%20Office%20Tasker%20and%20Package%20Correspondence%20Process.pdf)
 
