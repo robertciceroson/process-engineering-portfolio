@@ -19,7 +19,7 @@ All diagrams are built in Microsoft Visio and viewable directly in this reposito
 |---|---|---|---|---|
 | 1 | [Smoke Testing – Monthly Outages Process](#1-smoke-testing--monthly-outages-process) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart |
 | 2 | [Smoke Testing – New Functionality / New Release](#2-smoke-testing--new-functionality--new-release) | Federal IT / Army CID | Zantech IT Services | Current-State BPMN Swimlane Flowchart |
-| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State Flowchart |
+| 3 | [Chief of Staff Tasker & Package Correspondence](#3-chief-of-staff-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart |
 | 4 | [DASD IBR Action Memo Process](#4-dasd-ibr-action-memo-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Florchart|
 | 5 | [GIES Task Management Process](#5-gies-task-management-process) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart|
 | 6 | [IBR Front Desk Office Tasker & Package Correspondence](#6-ibr-front-desk-office-tasker--package-correspondence) | Federal / DoD | Pentagon DoD Agencies | Current-State BPMN Swimlane Flowchart |
@@ -76,7 +76,7 @@ Documents the smoke testing process for new functionality releases across ALERTS
 
 ---
 
-### 3. Chief of Staff Tasker & Package Correspondence
+### 3. Chief of Staff Tasker and Package Correspondence
 
 **Domain:** Federal / DoD Operations  
 **Type:** Current-State BPMN Swimlane Flowchart
